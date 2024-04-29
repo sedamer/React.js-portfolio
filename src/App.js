@@ -1,15 +1,18 @@
 import "./App.css";
-import "./components/Header/header";
 
-import logo from "./logo.svg";
+import Footer from "./components/Footer/footer";
+import Header from "./components/Header/header";
+import Hobies from "./components/Hobies/hobies";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Hobies />
+        <Footer />
+      </main>
+    </>
   );
 }
 

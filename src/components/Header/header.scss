@@ -1,2 +1,13 @@
 .header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  &__content {
+    &__name {
+      font-family: Quicksand-Light;
+      font-size: larger;
+    }
+  }
 }
