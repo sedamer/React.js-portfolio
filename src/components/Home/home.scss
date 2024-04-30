@@ -1,0 +1,31 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  &__title {
+    font-family: Quicksand-Light;
+    font-size: larger;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    &__desc {
+      margin-right: 40%;
+    }
+    &__button {
+      width: 100px;
+      border-radius: 8px;
+      margin-left: 25%;
+    }
+  }
+  &__right {
+    img {
+      width: 300px;
+      border-radius: 50%;
+    }
+  }
+}

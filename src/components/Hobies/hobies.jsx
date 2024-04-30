@@ -1,6 +1,7 @@
 import "./hobies.scss";
 
 import goodreads from "../../assets/goodreads.png";
+import instagram from "../../assets/instagram.png";
 import letterboxd from "../../assets/letterboxd.png";
 import vsco from "../../assets/vsco.png";
 
@@ -36,6 +37,16 @@ export default function Hobbies() {
         <div className="hobbies__uc__img">
           <a href="https://vsco.co/moonbeee/gallery" target="__blank">
             <img src={letterboxd} alt="film" />
+          </a>
+        </div>
+      </div>
+      <div className="hobbies__four">
+        <div className="hobbies__uc__desc">
+          Yemek Yapmak! Tariflere göz atmak istersen!
+        </div>
+        <div className="hobbies__uc__img">
+          <a href="https://vsco.co/moonbeee/gallery" target="__blank">
+            <img src={instagram} alt="film" />
           </a>
         </div>
       </div>
