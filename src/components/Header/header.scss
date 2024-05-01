@@ -3,8 +3,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   border-bottom: 1px solid #ccc;
   &__content {
+    position: fixed;
     &__name {
       font-family: Quicksand-Light;
       font-size: larger;

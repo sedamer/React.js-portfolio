@@ -8,46 +8,55 @@ import vsco from "../../assets/vsco.png";
 export default function Hobbies() {
   return (
     <div className="hobbies">
-      <div className="hobbies__title">HOBİ ALANI</div>
-      <div className="hobbies__bir">
-        <div className="hobbies__bir__desc">
-          Fotoğrafçılık! Çektiğim fotoğraflara göz atmak istersen
-        </div>
-        <div className="hobbies__bir__img">
-          <a href="https://vsco.co/moonbeee/gallery" target="__blank">
-            <img src={vsco} alt="vsco" />
-          </a>
-        </div>
+      <div className="hobbies__vertical-line">
+        <div className="hobbies__vertical-line__title">04 hobies</div>
       </div>
-      <div className="hobbies__iki">
-        <div className="hobbies__iki__desc">
-          Kitap okumak! Okuduğum kitapları görmek veya kitap önerisinde bulunmak
-          istersen
+
+      <div className="hobbies__title">Hobi Alanı</div>
+      <div
+        className="hobbies
+      __alan"
+      >
+        <div className="hobbies__bir">
+          <div className="hobbies__bir__desc">
+            Fotoğrafçılık! Çektiğim fotoğraflara göz atmak istersen
+          </div>
+          <div className="hobbies__bir__img">
+            <a href="https://vsco.co/moonbeee/gallery" target="__blank">
+              <img src={vsco} alt="vsco" />
+            </a>
+          </div>
         </div>
-        <div className="hobbies__iki__img">
-          <a href="https://vsco.co/moonbeee/gallery" target="__blank">
-            <img src={goodreads} alt="good" />
-          </a>
+        <div className="hobbies__iki">
+          <div className="hobbies__iki__desc">
+            Kitap okumak! Okuduğum kitapları görmek veya kitap önerisinde
+            bulunmak istersen
+          </div>
+          <div className="hobbies__iki__img">
+            <a href="https://vsco.co/moonbeee/gallery" target="__blank">
+              <img src={goodreads} alt="good" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="hobbies__uc">
-        <div className="hobbies__uc__desc">
-          Film izlemek! İzlediğim filmleri göz atmak istersen
+        <div className="hobbies__uc">
+          <div className="hobbies__uc__desc">
+            Film izlemek! İzlediğim filmleri göz atmak istersen
+          </div>
+          <div className="hobbies__uc__img">
+            <a href="https://vsco.co/moonbeee/gallery" target="__blank">
+              <img src={letterboxd} alt="film" />
+            </a>
+          </div>
         </div>
-        <div className="hobbies__uc__img">
-          <a href="https://vsco.co/moonbeee/gallery" target="__blank">
-            <img src={letterboxd} alt="film" />
-          </a>
-        </div>
-      </div>
-      <div className="hobbies__four">
-        <div className="hobbies__uc__desc">
-          Yemek Yapmak! Tariflere göz atmak istersen!
-        </div>
-        <div className="hobbies__uc__img">
-          <a href="https://vsco.co/moonbeee/gallery" target="__blank">
-            <img src={instagram} alt="film" />
-          </a>
+        <div className="hobbies__four">
+          <div className="hobbies__uc__desc">
+            Yemek Yapmak! Tariflere göz atmak istersen!
+          </div>
+          <div className="hobbies__uc__img">
+            <a href="https://vsco.co/moonbeee/gallery" target="__blank">
+              <img src={instagram} alt="film" />
+            </a>
+          </div>
         </div>
       </div>
     </div>

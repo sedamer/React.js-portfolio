@@ -6,10 +6,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 @font-face {
   font-family: "Quicksand-Light";
   src: local("Quicksand-Light"),
     url(./fonts/static/Quicksand-Light.ttf) format("ttf");
+}
+@font-face {
+  font-family: "SourceSans3-ExtraLightItalic";
+  src: local("SourceSans3-ExtraLightItalic"),
+    url(./fonts/Source_Sans_3/static/SourceSans3-ExtraLightItalic.ttf)
+      format("ttf");
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
