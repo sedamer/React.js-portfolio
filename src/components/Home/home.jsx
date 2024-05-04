@@ -1,24 +1,23 @@
 import "./home.scss";
 
-import me from "../../assets/me.jpg";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
-// responsive i kontrol ett!!!
 export default function Home() {
-  const [send, setSend] = useState();
-  function handleSend(send) {
-    // useRef kullanılacak bunu en son yap
+  const [send, setSend] = useState("İletişim");
+  function handleSend() {
+    setSend(<Link to="#contact">Contact me</Link>);
   }
   return (
     <div className="home">
       <div className="home__content">
-        <div className="home__title">Merhaba, Ben Seda Mercan</div>
+        <div className="home__title">Hi, I'm Seda </div>
         <div className="home__content__desc">Junior Frontend Developer</div>
       </div>
       <div className="home__button">
-        <button onClick={handleSend}>İletişim</button>
+        <button onClick={handleSend}>{send}</button>
       </div>
-      <div className="home__right">{/* <img src={me} /> */}</div>
+      <div className="home__right"></div>
     </div>
   );
 }

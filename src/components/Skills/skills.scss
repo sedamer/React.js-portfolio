@@ -1,7 +1,7 @@
 .skills {
   display: flex;
-
   height: 100vh;
+
   &__vertical-line {
     width: 1px;
     height: 70px;
@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     left: 35%;
+
     &__title {
       font-family: SourceSans3-ExtraLightItalic;
       letter-spacing: 0.1em;
@@ -24,8 +25,65 @@
       font-style: italic;
     }
   }
-  &__title {
-    font-family: Quicksand-Light;
-    font-size: larger;
+
+  &__container {
+    width: 60%;
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: #eaecf0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    height: 50%;
+  }
+
+  .skill-circle {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 10% 0 30%;
+    margin-bottom: 20px;
+    &__link {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__image {
+      width: 30px;
+      height: 30px;
+      margin: 20px;
+    }
+    &__title {
+      margin-bottom: 5px;
+      font-family: SourceSans3-ExtraLightItalic;
+      font-style: italic;
+    }
+
+    &__level {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__circles {
+        display: flex;
+      }
+    }
+
+    &__circle {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      background-color: transparent;
+      margin: 1px;
+      &--filled {
+        background-color: #899384;
+      }
+    }
   }
 }

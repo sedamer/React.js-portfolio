@@ -12,7 +12,7 @@ export default function Hobbies() {
         <div className="hobbies__vertical-line__title">04 hobies</div>
       </div>
 
-      <div className="hobbies__title">Hobi Alanı</div>
+      <div className="hobbies__title">Hobby Area</div>
       <div
         className="hobbies
       __alan"

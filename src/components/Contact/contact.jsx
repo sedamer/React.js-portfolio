@@ -7,7 +7,8 @@ export default function Contact() {
         {" "}
         <div className="contact__vertical-line__title">05 contact</div>
       </div>
-      <div className="contact__title">BANA ULAŞIN- İLETİŞİMDE KALIN</div>
+      <div className="contact__title">Hello Nice to meet you</div>
+      <div className="contact__title"> Stay in Touch</div>
     </div>
   );
 }

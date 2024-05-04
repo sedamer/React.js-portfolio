@@ -9,7 +9,7 @@ body {
 
 @font-face {
   font-family: "Quicksand-Light";
-  src: local("Quicksand-Light"),
+  src: local("Quick      sand-Light"),
     url(./fonts/static/Quicksand-Light.ttf) format("ttf");
 }
 @font-face {
