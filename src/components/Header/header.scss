@@ -7,9 +7,32 @@
   border-bottom: 1px solid #ccc;
   &__content {
     position: fixed;
-    &__name {
-      font-family: Quicksand-Light;
-      font-size: larger;
+
+    &__nav {
+      position: relative;
+      left: 70%;
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          a {
+            text-decoration: none;
+            margin-right: 40px;
+            letter-spacing: 2px;
+            color: #899384;
+          }
+        }
+
+        li:last-child a {
+          margin-right: 0; // Son linkin sağ tarafındaki boşluğu kaldır
+        }
+      }
     }
   }
 }

@@ -1,6 +1,8 @@
 .about {
   display: flex;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   &__vertical-line {
     width: 1px;
@@ -8,10 +10,10 @@
     position: relative;
     margin: 0px 64px 78px 193px;
     background-color: #bab6b6;
-    bottom: 30%;
+    bottom: 40%;
     display: flex;
     flex-direction: column;
-    left: 35%;
+    right: 16%;
     &__title {
       font-family: SourceSans3-ExtraLightItalic;
       letter-spacing: 0.1em;

@@ -1,17 +1,19 @@
 .skills {
   display: flex;
   height: 100vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &__vertical-line {
     width: 1px;
     height: 70px;
     position: relative;
-    margin: 0px 64px 78px 193px;
+    margin: 0px 64px 78px 205px;
     background-color: #bab6b6;
-    bottom: 30%;
+    bottom: 40%;
     display: flex;
     flex-direction: column;
-    left: 35%;
+    left: 32%;
 
     &__title {
       font-family: SourceSans3-ExtraLightItalic;
@@ -27,15 +29,14 @@
   }
 
   &__container {
-    width: 60%;
-    border: 1px solid;
-    border-radius: 12px;
-    background-color: #eaecf0;
+    width: 100%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    padding: 50px;
     height: 50%;
+    position: relative;
   }
 
   .skill-circle {

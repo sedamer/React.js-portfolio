@@ -1,17 +1,18 @@
 .projects {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   &__vertical-line {
     width: 1px;
     height: 70px;
     position: relative;
-    margin: 0px 64px 78px 193px;
+    margin: 0px 64px 78px 196px;
     background-color: #bab6b6;
-    bottom: 30%;
+    bottom: 40%;
     display: flex;
     flex-direction: column;
-    left: 35%;
+    left: 22%;
     &__title {
       font-family: SourceSans3-ExtraLightItalic;
       letter-spacing: 0.1em;
@@ -39,11 +40,10 @@
   }
   &__button {
     position: relative;
-    top: 60%;
+    top: 30%;
     button {
       width: 100%;
       height: 35px;
-      margin-left: 25%;
       border: 1px solid;
       border-radius: 24px;
       background-color: transparent;

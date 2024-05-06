@@ -5,7 +5,7 @@ export default function Projects() {
     <div className="projects">
       <div className="projects__vertical-line">
         {" "}
-        <div className="projects__vertical-line__title">03 projects</div>
+        <div className="projects__vertical-line__title">04 projects</div>
       </div>
       <div className="projects__container">
         <div className="projects__container__first">

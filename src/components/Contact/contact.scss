@@ -1,17 +1,18 @@
 .contact {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   &__vertical-line {
     width: 1px;
     height: 70px;
     position: relative;
-    margin: 0px 64px 78px 193px;
+    margin: 0px 64px 78px 190px;
     background-color: #bab6b6;
-    bottom: 30%;
+    bottom: 40%;
     display: flex;
     flex-direction: column;
-    left: 35%;
+    left: 29%;
     &__title {
       font-family: SourceSans3-ExtraLightItalic;
       letter-spacing: 0.1em;
@@ -21,11 +22,13 @@
       position: relative;
       top: 75px;
       left: 13px;
-      font-style: italic;
     }
   }
   &__title {
     font-family: Quicksand-Light;
     font-size: larger;
+    letter-spacing: 5px;
+  }
+  &__sub-title {
   }
 }

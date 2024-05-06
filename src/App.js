@@ -1,5 +1,7 @@
 import "./App.css";
 
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import AboutMe from "./components/AboutMe/aboutme";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
@@ -11,18 +13,20 @@ import Skills from "./components/Skills/skills";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
+      {/* Header bileşeni her zaman görünür olmalı, bu yüzden burada olmalı */}
       <Header />
-      <main>
-        <Home />
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Hobies />
-        <Contact />
-        <Footer />
-      </main>
-    </>
+      <Routes>
+        {/* Her bir Route bileşeni bağımsız olmalı ve kapatma etiketiyle sonlandırılmalı */}
+        <Route path="/home" element={<Home />} />
+        <Route path="/aboutMe" element={<AboutMe />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/hobies" element={<Hobies />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
