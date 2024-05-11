@@ -8,11 +8,11 @@ import vsco from "../../assets/vsco.png";
 export default function Hobbies() {
   return (
     <div className="hobbies">
-      <div className="hobbies__vertical-line">
+      {/* <div className="hobbies__vertical-line">
         <div className="hobbies__vertical-line__title">05 hobies</div>
-      </div>
+      </div> */}
 
-      <div className="hobbies__title">Hobby Area</div>
+      {/* <div className="hobbies__title">Hobby Area</div> */}
       <div className="hobbies__alan">
         <div className="hobbies__alan__bir">
           <div className="hobbies__alan__bir__desc">

@@ -1,52 +1,43 @@
 .skills {
   display: flex;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  &__vertical-line {
-    width: 1px;
-    height: 70px;
-    position: relative;
-    margin: 0px 64px 78px 205px;
-    background-color: #bab6b6;
-    bottom: 40%;
-    display: flex;
-    flex-direction: column;
-    left: 32%;
+  // &__vertical-line {
+  //   width: 1px;
+  //   height: 70px;
+  //   position: relative;
+  //   margin: 0px 64px 78px 205px;
+  //   background-color: #bab6b6;
+  //   bottom: 40%;
+  //   display: flex;
+  //   flex-direction: column;
+  //   left: 32%;
 
-    &__title {
-      font-family: SourceSans3-ExtraLightItalic;
-      letter-spacing: 0.1em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      top: 75px;
-      left: 13px;
-      font-style: italic;
-    }
-  }
+  //   &__title {
+  //     font-family: SourceSans3-ExtraLightItalic;
+  //     letter-spacing: 0.1em;
+  //     display: flex;
+  //     justify-content: center;
+  //     align-items: center;
+  //     position: relative;
+  //     top: 75px;
+  //     left: 13px;
+  //     font-style: italic;
+  //   }
+  // }
 
   &__container {
     width: 100%;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 50px;
-    height: 50%;
-    position: relative;
   }
-
   .skill-circle {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 10% 0 30%;
-    margin-bottom: 20px;
+
     &__link {
       text-decoration: none;
       color: inherit;
@@ -69,10 +60,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-
-      &__circles {
-        display: flex;
-      }
     }
 
     &__circle {
