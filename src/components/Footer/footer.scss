@@ -3,21 +3,19 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row-reverse;
-  bottom: 0;
-  width: 100%;
   border-top: 1px solid #ccc;
   padding: 10px 0;
 
   &__content {
-    display: flex;
-
     img {
       width: 40px;
       height: 40px;
     }
-  }
-  &__copy {
-    font-family: Quicksand-Light;
-    font-size: large;
+
+    &__copy {
+      font-family: Quicksand-Light;
+      font-size: large;
+      color: #2a3521;
+    }
   }
 }

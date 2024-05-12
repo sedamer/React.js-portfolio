@@ -3,10 +3,7 @@ import "./projects.scss";
 export default function Projects() {
   return (
     <div className="projects">
-      <div className="projects__vertical-line">
-        {" "}
-        {/* <div className="projects__vertical-line__title">04 projects</div> */}
-      </div>
+      <div className="projects__vertical-line"> </div>
       <div className="projects__container">
         <div className="projects__container__first">
           <div className="projects__container__first__title">

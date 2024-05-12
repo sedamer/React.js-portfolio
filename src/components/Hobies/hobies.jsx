@@ -1,18 +1,14 @@
 import "./hobies.scss";
 
 import goodreads from "../../assets/goodreads.png";
-import instagram from "../../assets/instagram.png";
 import letterboxd from "../../assets/letterboxd.png";
 import vsco from "../../assets/vsco.png";
 
 export default function Hobbies() {
   return (
     <div className="hobbies">
-      {/* <div className="hobbies__vertical-line">
-        <div className="hobbies__vertical-line__title">05 hobies</div>
-      </div> */}
+      <div className="hobbies__title">Hobby Area</div>
 
-      {/* <div className="hobbies__title">Hobby Area</div> */}
       <div className="hobbies__alan">
         <div className="hobbies__alan__bir">
           <div className="hobbies__alan__bir__desc">
@@ -36,6 +32,7 @@ export default function Hobbies() {
             </a>
           </div>
         </div>
+
         <div className="hobbies__alan__uc">
           <div className="hobbies__alan__uc__desc">
             <h3> Watching Movies!</h3> Interested in browsing the movies I've
@@ -44,17 +41,6 @@ export default function Hobbies() {
           <div className="hobbies__alan__uc__img">
             <a href="https://vsco.co/moonbeee/gallery" target="__blank">
               <img src={letterboxd} alt="film" />
-            </a>
-          </div>
-        </div>
-        <div className="hobbies__alan__four">
-          <div className="hobbies__alan__four__desc">
-            <h3>Cooking!</h3> If you want to explore recipes, feel free to take
-            a look at my cooking section!
-          </div>
-          <div className="hobbies__alan__four__img">
-            <a href="https://vsco.co/moonbeee/gallery" target="__blank">
-              <img src={instagram} alt="film" />
             </a>
           </div>
         </div>

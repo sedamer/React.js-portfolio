@@ -8,9 +8,9 @@ export default function Contact() {
         <div className="contact__vertical-line__title">06 contact</div>
       </div> */}
       <div className="contact__title">
-        <h3>
+        <p>
           HELLO,<br></br> NICE TO MEET YOU!
-        </h3>
+        </p>
       </div>
 
       <div className="contact__form">

@@ -3,34 +3,50 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
   border-bottom: 1px solid #ccc;
+
   &__content {
-    position: fixed;
+    width: 100%;
+    max-width: 1000px;
 
     &__nav {
-      position: relative;
-      left: 70%;
       ul {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         list-style: none;
         padding: 0;
         margin: 0;
 
         li {
+          margin-bottom: 20px;
+
           a {
             text-decoration: none;
-            margin-right: 40px;
             letter-spacing: 2px;
             color: #899384;
           }
         }
 
-        li:last-child a {
-          margin-right: 0; // Son linkin sağ tarafındaki boşluğu kaldır
+        li:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    &__content {
+      &__nav {
+        ul {
+          flex-direction: row; // Büyük ekranlarda menü yatay olacak
+          justify-content: flex-end; // Menü sağ tarafa yaslanacak
+
+          li {
+            margin-bottom: 0;
+            margin-left: 20px; // Menü öğeleri arasındaki boşluk
+          }
         }
       }
     }

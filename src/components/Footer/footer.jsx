@@ -18,7 +18,7 @@ export default function Footer() {
           <img src={email} alt="email" />
         </a>
       </div>
-      <span className="footer__copy">
+      <span className="footer__content__copy">
         &#169; Seda Mercan. All rigths reserved
       </span>
     </footer>
