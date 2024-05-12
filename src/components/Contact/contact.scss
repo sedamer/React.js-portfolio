@@ -1,6 +1,6 @@
 .contact {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
 
@@ -11,11 +11,65 @@
     text-align: center;
     padding: 0px 0px 70px 40px;
     margin: 0 50px 20px 20px;
-    font-style: italic;
   }
   &__form {
-    &__sub-title {
-      font-family: SourceSans3-ExtraLightItalic;
+    &__container {
+      display: flex;
+      justify-content: flex-end;
+
+      &__sub-title {
+        font-family: SourceSans3-ExtraLightItalic;
+        padding: 20px;
+        margin: 15px;
+        font-size: 2rem;
+        font-style: italic;
+      }
+      &__text {
+        width: 100%;
+        max-width: 500px;
+
+        input {
+          border-bottom: 5px solid #2a3521;
+          color: rgba(0, 0, 0, 1);
+          border: none;
+          background-color: #f9f5f2;
+          outline: none;
+          display: block;
+          width: 100%;
+          &:focus {
+            border-bottom: 1px solid #2a3521;
+          }
+        }
+        textarea {
+          border-bottom: 5px solid #2a3521;
+          color: rgba(0, 0, 0, 1);
+          border: none;
+          background-color: #f9f5f2;
+          outline: none;
+          display: block;
+          width: 100%;
+          &:focus {
+            border-bottom: 1px solid #2a3521;
+          }
+        }
+        &__send {
+          display: flex;
+          justify-content: flex-start;
+          padding: 20px;
+          button {
+            width: 120px;
+            height: 35px;
+            border: none;
+            background-color: transparent;
+            color: #2a3521;
+            margin-left: 100px;
+            cursor: pointer;
+          }
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
     }
   }
 }

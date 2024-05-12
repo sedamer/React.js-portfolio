@@ -1,5 +1,7 @@
 import "./projects.scss";
 
+import arrow from "../../assets/arrows.png";
+
 export default function Projects() {
   return (
     <div className="projects">
@@ -61,6 +63,11 @@ export default function Projects() {
       <div className="projects__button">
         <a href="https://github.com/sedamer?tab=repositories" target="__blank">
           <button>Click to view more</button>
+          <img
+            src={arrow}
+            alt="Arrow icon"
+            style={{ width: "40px", paddingLeft: "40%" }}
+          />
         </a>
       </div>
     </div>
