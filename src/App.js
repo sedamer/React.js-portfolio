@@ -18,6 +18,7 @@ function App() {
       <Header />
       <Routes>
         {/* Her bir Route bileşeni bağımsız olmalı ve kapatma etiketiyle sonlandırılmalı */}
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/aboutMe" element={<AboutMe />} />
         <Route path="/skills" element={<Skills />} />

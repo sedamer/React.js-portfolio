@@ -4,8 +4,11 @@
   align-items: center;
   height: 100vh;
   &__content {
-    justify-content: space-between;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
     &__left {
       width: 50%;
       margin-bottom: 60px;
@@ -47,12 +50,16 @@
         &__work,
         &__certificate {
           button {
+            width: 120px;
+            height: 35px;
             border: none;
-            background-color: #f9f5f2;
+            border-radius: 24px;
+            background-color: transparent;
             color: #2a3521;
+            margin-left: 100px;
             cursor: pointer;
-            align-items: baseline;
-            display: flex;
+
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
           }
           img {
             width: 25px;

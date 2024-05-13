@@ -1,6 +1,5 @@
 import "./aboutme.scss";
 
-import cert from "../../assets/certified.png";
 import graduate from "../../assets/graduation-cap.png";
 import work from "../../assets/work-experience.png";
 
@@ -21,17 +20,16 @@ export default function AboutMe() {
           <div className="about__content__right">
             <div className="about__content__right__section">
               <div className="about__content__right__section__edu">
-                <button onClick={""}>Education</button>
-                <img src={graduate} alt="graduate" />
-                {/* <div className="about__content__right__edu__circle"></div> */}
+                <button onClick={""}>
+                  Education
+                  <img src={graduate} alt="graduate" />
+                </button>
               </div>
               <div className="about__content__right__section__work">
-                <button>Experience</button>
-                <img src={work} alt="work" />
-              </div>
-              <div className="about__content__right__section__certificate">
-                <button>Certificates / Volunteers</button>
-                <img src={cert} alt="cert" />
+                <button>
+                  Experience
+                  <img src={work} alt="work" />
+                </button>
               </div>
             </div>
           </div>
