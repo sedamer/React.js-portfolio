@@ -1,10 +1,23 @@
 import "./contact.scss";
 
+import email from "../../assets/communication.png";
+import map from "../../assets/map.png";
+
 export default function Contact() {
   return (
     <div className="contact">
-      <div className="contact__title"></div>
-
+      <div className="contact__reach">
+        <div className="contact__reach__email">
+          <img src={email} alt="email" />
+          <h3>Email</h3>
+          <p>mrcnsedaa@gmail.com</p>
+        </div>
+        <div className="contact__reach__map">
+          <img src={map} alt="email" />
+          <h3>Location</h3>
+          <p>Adana/Turkey</p>
+        </div>
+      </div>
       <div className="contact__form">
         <div className="contact__form__container">
           <div className="contact__form__container__sub-title">

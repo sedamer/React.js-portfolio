@@ -14,27 +14,45 @@ export default function Skills() {
           <ul>
             <li>
               <strong>HTML</strong>
-              <br></br>Frontend Development Bootcamp (120 hours)
+              <br></br>
+              <p>
+                <span style={{ width: "80px" }}></span>
+              </p>
             </li>
             <li>
               <strong>CSS</strong>
-              <br></br>Frontend Development Bootcamp (120 hours)
+              <br></br>{" "}
+              <p>
+                <span style={{ width: "70px" }}></span>
+              </p>
             </li>{" "}
             <li>
               <strong>Sass</strong>
-              <br></br>Frontend Development Bootcamp (120 hours)
+              <br></br>{" "}
+              <p>
+                <span style={{ width: "60px" }}></span>
+              </p>
             </li>{" "}
             <li>
               <strong>Javascript</strong>
-              <br></br>Frontend Development Bootcamp (120 hours)
+              <br></br>{" "}
+              <p>
+                <span style={{ width: "50px" }}></span>
+              </p>
             </li>{" "}
             <li>
               <strong>React</strong>
-              <br></br>Frontend Development Bootcamp (120 hours)
+              <br></br>{" "}
+              <p>
+                <span style={{ width: "55px" }}></span>
+              </p>
             </li>
             <li>
               <strong>Git</strong>
-              <br></br>Frontend Development Bootcamp (120 hours)
+              <br></br>{" "}
+              <p>
+                <span style={{ width: "75px" }}></span>
+              </p>
             </li>
             <li>
               <strong>English</strong>

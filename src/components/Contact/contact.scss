@@ -1,16 +1,27 @@
 .contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 100vh;
-
-  &__title {
-    font-family: SourceSans3-ExtraLightItalic;
-    font-size: 2rem;
-    letter-spacing: 5px;
-    text-align: center;
-    padding: 0px 0px 70px 40px;
-    margin: 0 50px 20px 20px;
+  &__reach {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    &__email,
+    &__map {
+      padding: 30px;
+      border: 1px solid;
+      border-radius: 24px;
+      border: none;
+      box-shadow: none;
+      text-align: center;
+      h3 {
+        font-style: italic;
+        font-weight: 600;
+        font-family: SourceSans3-ExtraLightItalic;
+        color: #9b8588;
+      }
+    }
   }
   &__form {
     &__container {
@@ -26,7 +37,7 @@
       }
       &__text {
         width: 100%;
-        max-width: 500px;
+        max-width: 1000px;
 
         input {
           border-bottom: 5px solid #2a3521;
