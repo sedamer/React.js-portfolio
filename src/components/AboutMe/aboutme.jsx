@@ -1,7 +1,7 @@
 import "./aboutme.scss";
 
-import graduate from "../../assets/graduation-cap.png";
-import work from "../../assets/work-experience.png";
+import graduate from "../../assets/diploma.png";
+import work from "../../assets/customer.png";
 
 export default function AboutMe() {
   return (
@@ -9,6 +9,7 @@ export default function AboutMe() {
       <div className="about__content">
         <div className="about__content__left">
           <div className="about__content__left__title">My Story</div>
+
           <div className="about__content__left__desc">
             I have an interest in the field of web development, especially
             focused on the Frontend side where users interact directly. I am

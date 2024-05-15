@@ -1,6 +1,8 @@
 import "./skills.scss";
 
-import cert from "../../assets/certified.png";
+import cert from "../../assets/rating.png";
+import linkedin from "../../assets/linkedin.png";
+import skills from "../../assets/integrity.png";
 
 export default function Skills() {
   return (
@@ -9,7 +11,7 @@ export default function Skills() {
         <div className="skill__container__first">
           <p>
             My Skills
-            <img src={cert} alt="cert" />
+            <img src={skills} alt="cert" />
           </p>
           <ul>
             <li>
@@ -83,6 +85,12 @@ export default function Skills() {
               <br></br>Volunteer Project Assistant (1 month)
             </li>
           </ul>
+          <div className="skill__container__second__link">
+            <img src={linkedin} alt="linkedin" style={{ width: "40px" }} />
+            <a href="/">
+              <button>Click for news</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
