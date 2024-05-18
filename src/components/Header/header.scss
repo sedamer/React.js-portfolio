@@ -33,6 +33,12 @@
           margin-bottom: 0;
         }
       }
+      &__language {
+        select {
+          border: none;
+          background-color: transparent;
+        }
+      }
     }
   }
 

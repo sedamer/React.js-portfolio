@@ -1,5 +1,6 @@
 import "./index.css";
 import "./fonts/static/Quicksand-Light.ttf";
+import "./i18n";
 
 import App from "./App";
 import React from "react";

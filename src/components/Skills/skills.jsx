@@ -4,14 +4,18 @@ import cert from "../../assets/rating.png";
 import github from "../../assets/social2.png";
 import linkedin from "../../assets/linkedin.png";
 import skills from "../../assets/integrity.png";
+import { useTranslation } from "react-i18next";
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <div className="skill">
       <div className="skill__container">
         <div className="skill__container__first">
           <p>
-            My Skills
+            {t("My Skills")}
+
             <img src={skills} alt="cert" />
           </p>
           <ul>
@@ -59,27 +63,31 @@ export default function Skills() {
             </li>
             <li>
               <strong>English</strong>
-              <br></br>B2-C1 Level
+              <br></br>
+              {t("B2-C1 Level")}
             </li>
           </ul>
         </div>
         <div className="skill__container__second">
           <p>
-            Certificates / Volunteers
+            {t("Certificates / Volunteers")}
+
             <img src={cert} alt="cert" />
           </p>
           <ul>
             <li>
-              <strong>SistersLab Academy</strong>
-              <br></br>Frontend Development Bootcamp (120 hours)
+              <strong>{t("SistersLab Academy")}</strong>
+              <br></br>
+              {t("Frontend Development Bootcamp (120 hours)")}
             </li>
             <li>
               <strong>YGA</strong>
-              <br></br>Role Model Women in Technology Program (3 months)
+              <br></br>
+              {t("Role Model Women in Technology Program (3 months)")}
             </li>
             <li>
-              <strong>Ada Lovelace Academy</strong>
-              <br></br>Volunteer Project Assistant (1 month)
+              <strong> {t("Ada Lovelace Academy")}</strong>
+              <br></br> {t("Volunteer Project Assistant (1 month)")}
             </li>
             <li>
               <strong>Ada Lovelace Academy</strong>

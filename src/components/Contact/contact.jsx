@@ -4,8 +4,11 @@ import email from "../../assets/communication.png";
 import emailjs from "@emailjs/browser";
 import map from "../../assets/map.png";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
+  const { t } = useTranslation();
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -30,20 +33,20 @@ export default function Contact() {
     <div className="contact">
       <div className="contact__social">
         <h3>
-          Hello, <br></br>
-          Nice to meet you!
+          {t("Hello,")} <br></br>
+          {t("Nice to meet you!")}
         </h3>
       </div>
       <div className="contact__reach">
         <div className="contact__reach__email">
           <img src={email} alt="email" />
-          <h3>Email</h3>
+          <h3>{t("Email")}</h3>
           <p>mrcnsedaa@gmail.com</p>
         </div>
         <div className="contact__reach__map">
           <img src={map} alt="email" />
-          <h3>Location</h3>
-          <p>Adana/Turkey</p>
+          <h3>{t("Location")}</h3>
+          <p>{t("Adana/Turkey")}Adana/Turkey</p>
         </div>
       </div>
 
@@ -51,7 +54,7 @@ export default function Contact() {
         <div className="contact__form__container">
           <div className="contact__form__container__sub-title">
             {" "}
-            Stay in Touch.
+            {t("Stay in Touch.")}
           </div>
           <form
             ref={form}
@@ -86,7 +89,7 @@ export default function Contact() {
               rows={5}
             ></textarea>
             <div className="contact__form__container__text__send">
-              <button type="submit">Get in touch</button>
+              <button type="submit">{t("Get in touch")}</button>
             </div>
           </form>
         </div>

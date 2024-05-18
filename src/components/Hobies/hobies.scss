@@ -3,6 +3,8 @@
   flex-direction: column; // Mobil görünümde alt alta gelecek
   align-items: center;
   height: auto; // footewr  ve watcing movies i ayırdı.
+  width: 100%;
+  min-height: 630px;
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
     font-style: italic;

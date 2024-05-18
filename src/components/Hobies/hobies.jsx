@@ -2,18 +2,22 @@ import "./hobies.scss";
 
 import goodreads from "../../assets/goodreads.png";
 import letterboxd from "../../assets/letterboxd.png";
+import { useTranslation } from "react-i18next";
 import vsco from "../../assets/vsco.png";
 
 export default function Hobbies() {
+  const { t } = useTranslation();
+
   return (
     <div className="hobbies">
-      <div className="hobbies__title">Hobby Area</div>
+      <div className="hobbies__title">{t("Hobby Area")}</div>
 
       <div className="hobbies__alan">
         <div className="hobbies__alan__bir">
           <div className="hobbies__alan__bir__desc">
-            <h3> Photography! </h3>Are you interested in checking out my photos?
-            Feel free to visit my profile on VSCO.
+            <h3> {t("Photography!")} </h3>
+            {t("Are you interested in checking out my photos?")}
+            {t("Feel free to visit my profile on VSCO.")}
           </div>
           <div className="hobbies__alan__bir__img">
             <a href="https://vsco.co/moonbeee/gallery" target="__blank">
@@ -23,8 +27,10 @@ export default function Hobbies() {
         </div>
         <div className="hobbies__alan__iki">
           <div className="hobbies__alan__iki__desc">
-            <h3>Reading Books!</h3> If you'd like to see the books I've read or
-            want book recommendations, take a look at my Goodreads profile.
+            <h3>{t("Reading Books!")}</h3>{" "}
+            {t(
+              "If you'd like to see the books I've read or want book recommendations, take a look at my Goodreads profile."
+            )}
           </div>
           <div className="hobbies__alan__iki__img">
             <a href="https://vsco.co/moonbeee/gallery" target="__blank">
@@ -35,8 +41,10 @@ export default function Hobbies() {
 
         <div className="hobbies__alan__uc">
           <div className="hobbies__alan__uc__desc">
-            <h3> Watching Movies!</h3> Interested in browsing the movies I've
-            watched? Feel free to check out my film list.
+            <h3> {t("Watching Movies!")}</h3>{" "}
+            {t(
+              "Interested in browsing the movies I've watched? Feel free to check out my film list."
+            )}
           </div>
           <div className="hobbies__alan__uc__img">
             <a href="https://vsco.co/moonbeee/gallery" target="__blank">

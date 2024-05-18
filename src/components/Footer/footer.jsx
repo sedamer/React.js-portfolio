@@ -3,8 +3,11 @@ import "./footer.scss";
 import email from "../../assets/email.png";
 import github from "../../assets/program.png";
 import linkedin from "../../assets/social.png";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="footer">
       <div className="footer__content" target="__blank">
@@ -19,7 +22,7 @@ export default function Footer() {
         </a>
       </div>
       <span className="footer__content__copy">
-        &#169; Seda Mercan. All rigths reserved
+        &#169; {t("Seda Mercan. All rigths reserved")}
       </span>
     </footer>
   );

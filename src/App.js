@@ -16,6 +16,7 @@ function App() {
     <BrowserRouter>
       {/* Header bileşeni her zaman görünür olmalı, bu yüzden burada olmalı */}
       <Header />
+
       <Routes>
         {/* Her bir Route bileşeni bağımsız olmalı ve kapatma etiketiyle sonlandırılmalı */}
         <Route path="/" element={<Home />} />

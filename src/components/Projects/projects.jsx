@@ -1,18 +1,21 @@
 import "./projects.scss";
 
 import nutrition from "../../assets/nutrition.png";
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+  const { t } = useTranslation();
+
   return (
     <div className="projects">
-      <div className="projects__title">Projects</div>{" "}
+      <div className="projects__title"> {t("Projects")}</div>{" "}
       <div className="projects__container">
         <div className="projects__container__first">
           <div className="projects__container__first__title">
             <img src={nutrition} alt="nutrition" />
             <p>
-              Nutrition and Workout
-              <br></br> Full Stack Web Site
+              {t("Nutrition and Workout")}
+              <br></br> {t("Full Stack Web Site")}
             </p>
           </div>
           <div className="projects__container__first__button">
@@ -20,7 +23,7 @@ export default function Projects() {
               href="https://github.com/sedamer?tab=repositories"
               target="__blank"
             >
-              <button>View Detail</button>
+              <button> {t("View Detail")}</button>
             </a>
           </div>
         </div>
@@ -28,8 +31,8 @@ export default function Projects() {
           <div className="projects__container__sec__title">
             <img src={nutrition} alt="nutrition" />
             <p>
-              Chess
-              <br></br> Full Stack Web Site (Team Work)
+              {t("Chess")}
+              <br></br> {t("Full Stack Web Site (Team Work)")}
             </p>
           </div>
           <div className="projects__container__sec__button">
@@ -37,7 +40,7 @@ export default function Projects() {
               href="https://github.com/sedamer?tab=repositories"
               target="__blank"
             >
-              <button>View Detail</button>
+              <button> {t("View Detail")}</button>
             </a>
           </div>
         </div>
@@ -45,8 +48,8 @@ export default function Projects() {
           <div className="projects__container__third__title">
             <img src={nutrition} alt="nutrition" />
             <p>
-              Brick Breaker Game
-              <br></br> Various Environment
+              {t("Brick Breaker Game")}
+              <br></br> {t("Various Environment")}
             </p>
           </div>
           <div className="projects__container__third__button">
@@ -54,13 +57,13 @@ export default function Projects() {
               href="https://github.com/sedamer?tab=repositories"
               target="__blank"
             >
-              <button>View Detail</button>
+              <button> {t("View Detail")}</button>
             </a>
           </div>
         </div>
       </div>
       <div className="projects__more">
-        <button>Click for more</button>
+        <button> {t("Click for more")}</button>
       </div>
     </div>
   );
