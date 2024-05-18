@@ -1,6 +1,7 @@
 import "./skills.scss";
 
 import cert from "../../assets/rating.png";
+import github from "../../assets/social2.png";
 import linkedin from "../../assets/linkedin.png";
 import skills from "../../assets/integrity.png";
 
@@ -86,9 +87,18 @@ export default function Skills() {
             </li>
           </ul>
           <div className="skill__container__second__link">
-            <img src={linkedin} alt="linkedin" style={{ width: "40px" }} />
-            <a href="/">
-              <button>Click for news</button>
+            <a
+              href="https://www.linkedin.com/in/seda-mercan-b8b7a5222/"
+              target="__blank"
+            >
+              <img
+                src={linkedin}
+                alt="linkedin"
+                style={{ width: "40px", paddingRight: "10px" }}
+              />
+            </a>
+            <a href="https://github.com/sedamer" target="__blank">
+              <img src={github} alt="github" style={{ width: "40px" }} />
             </a>
           </div>
         </div>

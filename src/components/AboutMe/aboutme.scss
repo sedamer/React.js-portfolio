@@ -3,84 +3,47 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100%;
   &__content {
-    width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin-top: 50px;
+    justify-content: space-between;
     &__left {
-      width: 50%;
-      margin-bottom: 60px;
+      width: 70%;
+      padding-bottom: 30px;
+      margin-bottom: 10px;
       display: flex;
       flex-direction: row;
-      justify-content: center;
 
       &__title {
         font-family: SourceSans3-ExtraLightItalic;
         font-style: italic;
         font-size: 3.2rem;
         padding: 20px;
-        margin-bottom: 20px;
+
         color: #9b8588;
       }
       &__desc {
-        font-size: 1em;
-        padding: 20px;
+        margin: 30px;
       }
     }
     &__right {
-      margin-bottom: 50px;
-      width: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
 
       &__section {
         display: flex;
         flex-direction: row;
         padding: 10px;
-        &__dot {
-          p {
-            position: relative; /* Konumlandırma için */
-            width: 15px;
-            height: 15px;
-            background-color: #899384;
-            border: 1px solid;
-            border-radius: 100%;
-          }
-
-          p span {
-            position: absolute; /* Dikey çizgiyi pozisyonlandırmak için */
-            left: 50%; /* Topun tam ortasına yerleştirme */
-            transform: translateX(-50%); /* İçeriği yatayda ortalamak için */
-            width: 1.5px; /* Çizginin kalınlığı */
-            height: 150px; /* Çizginin uzunluğu */
-            background-color: #899384;
-          }
+        li {
+          list-style: bengali;
+        }
+        img {
+          width: 35px;
+          margin-left: 10px;
         }
         &__edu {
-        }
-        &__work {
-        }
-
-        &__edu,
-        &__work,
-        &__certificate {
-          button {
-            width: 120px;
-            height: 35px;
-            border: none;
-            border-radius: 24px;
-            background-color: transparent;
-            font-family: SourceSans3-ExtraLightItalic;
-            font-style: italic;
-            font-size: 1.2rem;
-            color: #9b8588;
-            margin-left: 100px;
-            cursor: pointer;
-          }
-          img {
-            width: 25px;
-            margin-left: 10px;
-          }
+          padding-right: 40px;
         }
       }
     }

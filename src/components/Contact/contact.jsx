@@ -28,6 +28,12 @@ export default function Contact() {
 
   return (
     <div className="contact">
+      <div className="contact__social">
+        <h3>
+          Hello, <br></br>
+          Nice to meet you!
+        </h3>
+      </div>
       <div className="contact__reach">
         <div className="contact__reach__email">
           <img src={email} alt="email" />
