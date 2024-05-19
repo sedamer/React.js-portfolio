@@ -2,6 +2,7 @@ import "./header.scss";
 
 import { Link, Outlet } from "react-router-dom";
 
+import { Mode } from "../mode/mode";
 import logo from "../../assets/day-and-night (1).png";
 import { useTranslation } from "react-i18next";
 
@@ -16,6 +17,9 @@ export default function Header() {
       <div className="header__content">
         <nav className="header__content__nav">
           <ul>
+            <Link to="/home">
+              <img src={logo} alt="logo" style={{ width: "55px" }} />
+            </Link>
             <li>
               <Link to="/home">{t("Home")}</Link>
             </li>
@@ -34,10 +38,12 @@ export default function Header() {
             <li>
               <Link to="/contact"> {t("Contact")}</Link>
             </li>
-            <Link to="/home">
-              <img src={logo} alt="logo" style={{ width: "55px" }} />
-            </Link>
-            <div className="header__content__nav__language">
+          </ul>
+          <div className="header__content__nav__section">
+            <div className="header__content__nav__section__mode">
+              <Mode />
+            </div>
+            <div className="header__content__nav__section__language">
               <select
                 name="language"
                 id="language"
@@ -47,7 +53,7 @@ export default function Header() {
                 <option value="tr">TR</option>
               </select>
             </div>
-          </ul>
+          </div>
         </nav>
       </div>
       <Outlet />

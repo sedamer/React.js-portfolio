@@ -1,0 +1,46 @@
+body {
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+
+  .App-header {
+    background-color: #1f1f1f;
+  }
+}
+
+.mode {
+  text-align: center;
+
+  button {
+    padding: 10px 20px;
+    width: 110px;
+    height: 62px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #f9f5f2;
+
+    color: #899384;
+
+    border: none;
+    border-radius: 24px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  body.dark-mode & {
+    button {
+      padding: 10px 20px;
+      width: 110px;
+      height: 62px;
+      margin-top: 10px;
+      cursor: pointer;
+      color: #cccccc;
+      border: none;
+      border-radius: 24px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      background-color: #121212;
+    }
+  }
+}
