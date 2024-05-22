@@ -40,10 +40,13 @@
   "If you'd like to see the books I've read or want book recommendations, take a look at my Goodreads profile.": "If you'd like to see the books I've read or want book recommendations, take a look at my Goodreads profile.",
   "Watching Movies!": "Watching Movies!",
   "Interested in browsing the movies I've watched? Feel free to check out my film list.": "Interested in browsing the movies I've watched? Feel free to check out my film list.",
-  "Hello,": "Hello,",
-  "Nice to meet you!": "Nice to meet you!",
+  "HELLO,": "HELLO,",
+  "NICE TO MEET YOU!": "NICE TO MEET YOU!",
   "Location": "Location",
   "Adana/Turkey": "Adana/Turkey",
   "Stay in Touch.": "Stay in Touch.",
-  "Get in touch": "Get in touch"
+  "Get in touch": "Get in touch",
+  "Name": "Name",
+  "Last Name": "Last Name",
+  "Message": "Message"
 }

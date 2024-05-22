@@ -3,11 +3,15 @@ body {
 }
 
 body.dark-mode {
-  background-color: #121212;
+  background-color: #201f1f;
   color: #ffffff;
-
+  button {
+    color: #201f1f;
+    background-color: #ffffff;
+    border-radius: 24px;
+  }
   .App-header {
-    background-color: #1f1f1f;
+    background-color: #201f1f;
   }
 }
 
@@ -20,10 +24,8 @@ body.dark-mode {
     height: 62px;
     margin-top: 10px;
     cursor: pointer;
-    background-color: #f9f5f2;
-
+    background-color: #fff8fc;
     color: #899384;
-
     border: none;
     border-radius: 24px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -36,11 +38,11 @@ body.dark-mode {
       height: 62px;
       margin-top: 10px;
       cursor: pointer;
-      color: #cccccc;
+      color: #b38a9d;
       border: none;
       border-radius: 24px;
       transition: background-color 0.3s ease, color 0.3s ease;
-      background-color: #121212;
+      background-color: #201f1f;
     }
   }
 }

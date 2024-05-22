@@ -6,17 +6,17 @@
   min-height: 630px;
   &__social {
     h3 {
-      width: 100%;
       font-size: 4rem;
       font-family: SourceSans3-ExtraLightItalic;
-      color: #9b8588;
+      color: #b38a9d;
+      padding: 5px;
     }
   }
 
   &__reach {
     display: flex;
     flex-direction: column;
-    padding: 150px;
+    padding: 90px;
     &__email,
     &__map {
       padding: 30px;
@@ -24,12 +24,13 @@
       border-radius: 24px;
       border: none;
       box-shadow: none;
+      color: #000;
       text-align: center;
       h3 {
         font-style: italic;
         font-weight: 600;
         font-family: SourceSans3-ExtraLightItalic;
-        color: #9b8588;
+        color: #b38a9d;
       }
     }
   }
@@ -44,19 +45,18 @@
         margin: 15px;
         font-size: 2rem;
         font-style: italic;
+        color: #000;
       }
       &__text {
         width: 100%;
         max-width: 1000px;
-
         input {
           border-bottom: 5px solid #2a3521;
           color: rgba(0, 0, 0, 1);
           border: none;
-          background-color: #f9f5f2;
+          background-color: #fff8fc;
           outline: none;
           display: block;
-          width: 100%;
           &:focus {
             border-bottom: 1px solid #2a3521;
           }
@@ -65,7 +65,7 @@
           border-bottom: 5px solid #2a3521;
           color: rgba(0, 0, 0, 1);
           border: none;
-          background-color: #f9f5f2;
+          background-color: #fff8fc;
           outline: none;
           display: block;
           width: 100%;
@@ -89,5 +89,9 @@
         }
       }
     }
+  }
+  @media (min-width: 768px) {
+    width: 100%;
+    min-height: 700px;
   }
 }

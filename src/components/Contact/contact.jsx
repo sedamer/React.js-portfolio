@@ -33,8 +33,8 @@ export default function Contact() {
     <div className="contact">
       <div className="contact__social">
         <h3>
-          {t("Hello,")} <br></br>
-          {t("Nice to meet you!")}
+          {t("HELLO,")} <br></br>
+          {t("NICE TO MEET YOU!")}
         </h3>
       </div>
       <div className="contact__reach">
@@ -46,7 +46,7 @@ export default function Contact() {
         <div className="contact__reach__map">
           <img src={map} alt="email" />
           <h3>{t("Location")}</h3>
-          <p>{t("Adana/Turkey")}Adana/Turkey</p>
+          <p>{t("Adana/Turkey")}</p>
         </div>
       </div>
 
@@ -63,27 +63,27 @@ export default function Contact() {
           >
             <input
               type="text"
-              placeholder="Name"
+              placeholder={t("Name")}
               name="user_name"
               required
-            ></input>{" "}
+            ></input>
             <br></br>
             <input
               type="text"
-              placeholder="Last Name"
+              placeholder={t("Last Name")}
               name="user_surname"
               required
             ></input>
             <br></br>
             <input
               type="email"
-              placeholder="Email"
+              placeholder={t("Email")}
               name="user_email"
               required
             ></input>{" "}
             <br></br>
             <textarea
-              placeholder="Message"
+              placeholder={t("Message")}
               name="message"
               required
               rows={5}

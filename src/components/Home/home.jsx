@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </div>
       <div className="home__content__right">
-        <img src={me} alt="me" />
+        {/* <img src={me} alt="me" /> */}
       </div>
     </div>
   );

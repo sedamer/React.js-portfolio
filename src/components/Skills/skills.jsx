@@ -11,13 +11,19 @@ export default function Skills() {
 
   return (
     <div className="skill">
+      <div className="skill__title">
+        Quali-<br></br>fi-<br></br>ca-<br></br>tion
+      </div>
+
       <div className="skill__container">
         <div className="skill__container__first">
-          <p>
+          <p className="skill__container__first__sub-title">
             {t("My Skills")}
 
             <img src={skills} alt="cert" />
           </p>
+
+          <p style={{ textAlign: "center" }}>{t("Front-end Technologies")}</p>
           <ul>
             <li>
               <strong>HTML</strong>
@@ -48,14 +54,14 @@ export default function Skills() {
               </p>
             </li>{" "}
             <li>
-              <strong>React</strong>
+              React
               <br></br>{" "}
               <p>
                 <span style={{ width: "55px" }}></span>
               </p>
             </li>
-            <li>
-              <strong>Git</strong>
+            {/* <li>
+              Git
               <br></br>{" "}
               <p>
                 <span style={{ width: "75px" }}></span>
@@ -65,10 +71,10 @@ export default function Skills() {
               <strong>English</strong>
               <br></br>
               {t("B2-C1 Level")}
-            </li>
+            </li> */}
           </ul>
         </div>
-        <div className="skill__container__second">
+        {/* <div className="skill__container__second">
           <p>
             {t("Certificates / Volunteers")}
 
@@ -109,7 +115,7 @@ export default function Skills() {
               <img src={github} alt="github" style={{ width: "40px" }} />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

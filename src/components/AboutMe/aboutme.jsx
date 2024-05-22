@@ -9,10 +9,9 @@ export default function AboutMe() {
 
   return (
     <div className="about">
+      <div className="about__title">{t("My Story")}</div>
       <div className="about__content">
         <div className="about__content__left">
-          <div className="about__content__left__title">{t("My Story")}</div>
-
           <div className="about__content__left__desc">
             {t(
               "I have an interest in the field of web development, especially focused on the Frontend"
@@ -27,7 +26,7 @@ export default function AboutMe() {
       <div className="about__content__right">
         <div className="about__content__right__section">
           <div className="about__content__right__section__edu">
-            <p style={{ color: "#9b8588" }}>
+            <p style={{ color: "#9B2042", marginTop: "10px" }}>
               {t("Education")}
               <img src={graduate} alt="graduate" />
             </p>

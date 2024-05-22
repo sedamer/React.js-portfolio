@@ -41,10 +41,13 @@
   "If you'd like to see the books I've read or want book recommendations, take a look at my Goodreads profile.": "If you'd like to see the books I've read or want book recommendations, take a look at my Goodreads profile.",
   "Watching Movies!": "Film İzlemek!",
   "Interested in browsing the movies I've watched? Feel free to check out my film list.": "Interested in browsing the movies I've watched? Feel free to check out my film list.",
-  "Hello,": "Merhaba,",
-  "Nice to meet you!": "Tanıştığıma memnun oldum!",
+  "HELLO,": "MERHABA,",
+  "NICE TO MEET YOU!": "MEMNUN OLDUM!",
   "Location": "Lokasyon",
   "Adana/Turkey": "Adana/Türkiye",
   "Stay in Touch.": "İletişimde Kal.",
-  "Get in touch": "İletişime geç"
+  "Get in touch": "İletişime geç",
+  "Name": "Adınız",
+  "Last Name": "Soyadınız",
+  "Message": "Mesajınız"
 }
