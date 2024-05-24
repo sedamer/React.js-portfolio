@@ -120,4 +120,15 @@
     width: 100%;
     min-height: 700px;
   }
+  @media (max-width: 767px) {
+    width: 100%;
+    min-height: 1000px;
+    &__container {
+      flex-direction: column;
+      display: block;
+    }
+    &__more {
+      overflow: hidden;
+    }
+  }
 }

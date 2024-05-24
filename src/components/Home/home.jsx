@@ -2,7 +2,6 @@ import "./home.scss";
 
 import { Link } from "react-router-dom";
 import lavander from "../../assets/flower.png";
-import me from "../../assets/me.jpg";
 import { useTranslation } from "react-i18next";
 
 export default function Home() {
@@ -26,9 +25,9 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div>
-      <div className="home__content__right">
-        {/* <img src={me} alt="me" /> */}
+        <div className="home__content__right">
+          {/* <img src={me} alt="me" /> */}
+        </div>
       </div>
     </div>
   );

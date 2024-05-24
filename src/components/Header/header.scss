@@ -12,7 +12,7 @@
 
     &__nav {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       ul {
         display: flex;
         flex-direction: column;
@@ -36,30 +36,30 @@
           margin-bottom: 0;
         }
       }
-      &__section {
-        display: flex;
-        justify-content: center;
-        &__language,
-        &__mode {
-          display: flex;
-          justify-content: flex-end;
+    }
+    &__section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-          select {
-            border: none;
-            background-color: transparent;
-            color: #899384;
-          }
+      &__language,
+      &__mode {
+        display: flex;
+        justify-content: flex-end;
+        select {
+          border: none;
+          background-color: transparent;
+          color: #899384;
         }
       }
     }
   }
-
   @media (min-width: 768px) {
     &__content {
       &__nav {
         ul {
           flex-direction: row; // Büyük ekranlarda menü yatay olacak
-          justify-content: flex-end; // Menü sağ tarafa yaslanacak
+          justify-content: center; // Menü sağ tarafa yaslanacak
 
           li {
             margin-bottom: 0;

@@ -39,11 +39,11 @@ export default function Header() {
               <Link to="/contact"> {t("Contact")}</Link>
             </li>
           </ul>
-          <div className="header__content__nav__section">
-            <div className="header__content__nav__section__mode">
+          <div className="header__content__section">
+            <div className="header__content__section__mode">
               <Mode />
             </div>
-            <div className="header__content__nav__section__language">
+            <div className="header__content__section__language">
               <select
                 name="language"
                 id="language"

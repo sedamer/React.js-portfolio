@@ -1,10 +1,13 @@
 import "./skills.scss";
 
-import cert from "../../assets/rating.png";
-import github from "../../assets/social2.png";
-import linkedin from "../../assets/linkedin.png";
 import skills from "../../assets/integrity.png";
 import { useTranslation } from "react-i18next";
+
+// import cert from "../../assets/rating.png";
+// import github from "../../assets/social2.png";
+// import linkedin from "../../assets/linkedin.png";
+
+
 
 export default function Skills() {
   const { t } = useTranslation();

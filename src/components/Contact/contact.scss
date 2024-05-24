@@ -94,4 +94,7 @@
     width: 100%;
     min-height: 700px;
   }
+  @media (max-width: 767px) {
+    display: block;
+  }
 }
