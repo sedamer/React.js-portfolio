@@ -3,10 +3,11 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: row-reverse;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid transparent;
   padding: 10px 0;
   height: 100%;
   width: 100%;
+  box-shadow: 0 2px 10px #0000001a;
   max-height: 100px;
   &__content {
     img {

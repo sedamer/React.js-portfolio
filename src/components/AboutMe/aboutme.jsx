@@ -29,7 +29,6 @@ export default function AboutMe() {
           <div className="about__content__right__section__edu">
             <p
               style={{
-                color: "#b38a9d",
                 marginTop: "20px",
                 fontSize: "2.1rem",
                 letterSpacing: "2px",
@@ -69,7 +68,6 @@ export default function AboutMe() {
           <div className="about__content__right__section__edu">
             <p
               style={{
-                color: "#b38a9d",
                 marginTop: "20px",
                 fontSize: "2.1rem",
                 letterSpacing: "2px",

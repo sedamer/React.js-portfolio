@@ -1,13 +1,10 @@
 import "./skills.scss";
 
+import cert from "../../assets/rating.png";
+import github from "../../assets/social2.png";
+import linkedin from "../../assets/linkedin.png";
 import skills from "../../assets/integrity.png";
 import { useTranslation } from "react-i18next";
-
-// import cert from "../../assets/rating.png";
-// import github from "../../assets/social2.png";
-// import linkedin from "../../assets/linkedin.png";
-
-
 
 export default function Skills() {
   const { t } = useTranslation();
@@ -25,59 +22,87 @@ export default function Skills() {
 
             <img src={skills} alt="cert" />
           </p>
-
-          <p style={{ textAlign: "center" }}>{t("Front-end Technologies")}</p>
-          <ul>
-            <li>
-              <strong>HTML</strong>
-              <br></br>
-              <p>
-                <span style={{ width: "80px" }}></span>
-              </p>
-            </li>
-            <li>
-              <strong>CSS</strong>
-              <br></br>{" "}
-              <p>
-                <span style={{ width: "70px" }}></span>
-              </p>
-            </li>{" "}
-            <li>
-              <strong>Sass</strong>
-              <br></br>{" "}
-              <p>
-                <span style={{ width: "60px" }}></span>
-              </p>
-            </li>{" "}
-            <li>
-              <strong>Javascript</strong>
-              <br></br>{" "}
-              <p>
-                <span style={{ width: "50px" }}></span>
-              </p>
-            </li>{" "}
-            <li>
-              React
-              <br></br>{" "}
-              <p>
-                <span style={{ width: "55px" }}></span>
-              </p>
-            </li>
-            {/* <li>
-              Git
-              <br></br>{" "}
-              <p>
-                <span style={{ width: "75px" }}></span>
-              </p>
-            </li>
-            <li>
-              <strong>English</strong>
-              <br></br>
-              {t("B2-C1 Level")}
-            </li> */}
-          </ul>
+          <div className="frontend">
+            <p style={{ textAlign: "center" }}>{t("Front-end Technologies")}</p>
+            <ul>
+              <li>
+                <a href="https://www.w3schools.com/html/">
+                  <strong>HTML</strong>
+                </a>
+                <br></br>
+                <p>
+                  <span style={{ width: "80px" }}></span>
+                </p>
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/css/">
+                  <strong>CSS</strong>{" "}
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "70px" }}></span>
+                </p>
+              </li>{" "}
+              <li>
+                <a href=" ">
+                  <strong>Sass</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "60px" }}></span>
+                </p>
+              </li>{" "}
+              <li>
+                <a href="https://www.javascript.com/">
+                  <strong>Javascript</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "50px" }}></span>
+                </p>
+              </li>{" "}
+              <li>
+                <a href="https://reactjs.org/">
+                  <strong>React</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "55px" }}></span>
+                </p>
+              </li>
+              <li>
+                <a href="https://getbootstrap.com/">
+                  <strong>Bootstrap</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "55px" }}></span>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="versiyon">
+            <p style={{ textAlign: "center" }}>
+              {t("Version Control / Language")}
+            </p>
+            <ul>
+              <li>
+                <strong>Git & GitHub</strong>
+                <br></br>
+                <p>
+                  <span style={{ width: "80px" }}></span>
+                </p>
+              </li>
+              <li>
+                <strong>English</strong>
+                <br></br>
+                {t("B2-C1 Level")}
+              </li>
+            </ul>
+          </div>
         </div>
-        {/* <div className="skill__container__second">
+
+        <div className="skill__container__second">
           <p>
             {t("Certificates / Volunteers")}
 
@@ -99,8 +124,8 @@ export default function Skills() {
               <br></br> {t("Volunteer Project Assistant (1 month)")}
             </li>
             <li>
-              <strong>Ada Lovelace Academy</strong>
-              <br></br>Volunteer Project Assistant (1 month)
+              <strong>YGA</strong>
+              <br></br>Digital bla bla bla
             </li>
           </ul>
           <div className="skill__container__second__link">
@@ -118,7 +143,7 @@ export default function Skills() {
               <img src={github} alt="github" style={{ width: "40px" }} />
             </a>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

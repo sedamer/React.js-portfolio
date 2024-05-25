@@ -5,12 +5,12 @@
   height: auto; // footewr  ve watcing movies i ayırdı.
   width: 100%;
   min-height: 630px;
+
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
     font-size: 2.8rem;
     padding: 20px;
     margin-bottom: 20px;
-    color: #b38a9d;
     letter-spacing: 0.5rem;
   }
 
@@ -63,9 +63,5 @@
     &__uc img {
       width: 90px;
     }
-  }
-  @media (min-width: 768px) {
-    width: 100%;
-    min-height: 700px;
   }
 }
