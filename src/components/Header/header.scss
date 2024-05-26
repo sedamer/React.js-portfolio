@@ -4,11 +4,7 @@
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 2px 10px #0000001a;
+
   &__content {
     width: 100%;
     max-width: 1000px;
@@ -16,7 +12,6 @@
     &__nav {
       display: flex;
       justify-content: space-between;
-      transition: all 0.3s ease;
 
       ul {
         display: flex;
@@ -30,15 +25,13 @@
         li {
           margin-bottom: 20px;
           color: black;
-
+          &:hover {
+            transform: scale(1.1);
+          }
           a {
             text-decoration: none;
             letter-spacing: 2px;
             color: black;
-
-            &:hover {
-              border-bottom: #000 2px solid;
-            }
           }
         }
 

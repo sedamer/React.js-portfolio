@@ -1,9 +1,5 @@
 import "./skills.scss";
 
-import cert from "../../assets/rating.png";
-import github from "../../assets/social2.png";
-import linkedin from "../../assets/linkedin.png";
-import skills from "../../assets/integrity.png";
 import { useTranslation } from "react-i18next";
 
 export default function Skills() {
@@ -17,13 +13,10 @@ export default function Skills() {
 
       <div className="skill__container">
         <div className="skill__container__first">
-          <p className="skill__container__first__sub-title">
-            {t("My Skills")}
-
-            <img src={skills} alt="cert" />
-          </p>
-          <div className="frontend">
-            <p style={{ textAlign: "center" }}>{t("Front-end Technologies")}</p>
+          <div className="skill__container__first__frontend">
+            <p style={{ textAlign: "center", fontStyle: "italic" }}>
+              {t("Front-end Technologies")}
+            </p>
             <ul>
               <li>
                 <a href="https://www.w3schools.com/html/">
@@ -80,33 +73,31 @@ export default function Skills() {
                 </p>
               </li>
             </ul>
-          </div>
-          <div className="versiyon">
-            <p style={{ textAlign: "center" }}>
-              {t("Version Control / Language")}
-            </p>
-            <ul>
-              <li>
-                <strong>Git & GitHub</strong>
-                <br></br>
-                <p>
-                  <span style={{ width: "80px" }}></span>
-                </p>
-              </li>
-              <li>
-                <strong>English</strong>
-                <br></br>
-                {t("B2-C1 Level")}
-              </li>
-            </ul>
+            <div className="skill__container__first__versiyon">
+              <p style={{ textAlign: "center", fontStyle: "italic" }}>
+                {t("Version Control / Language")}
+              </p>
+              <ul>
+                <li>
+                  <strong>Git & GitHub</strong>
+                  <br></br>
+                  <p>
+                    <span style={{ width: "80px" }}></span>
+                  </p>
+                </li>
+                <li>
+                  <strong>English</strong>
+                  <br></br>
+                  {t("B2-C1 Level")}
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-
+        <div className="skill__container__first__dot"></div>
         <div className="skill__container__second">
-          <p>
+          <p style={{ textAlign: "center", fontStyle: "italic" }}>
             {t("Certificates / Volunteers")}
-
-            <img src={cert} alt="cert" />
           </p>
           <ul>
             <li>
@@ -128,21 +119,6 @@ export default function Skills() {
               <br></br>Digital bla bla bla
             </li>
           </ul>
-          <div className="skill__container__second__link">
-            <a
-              href="https://www.linkedin.com/in/seda-mercan-b8b7a5222/"
-              target="__blank"
-            >
-              <img
-                src={linkedin}
-                alt="linkedin"
-                style={{ width: "40px", paddingRight: "10px" }}
-              />
-            </a>
-            <a href="https://github.com/sedamer" target="__blank">
-              <img src={github} alt="github" style={{ width: "40px" }} />
-            </a>
-          </div>
         </div>
       </div>
     </div>

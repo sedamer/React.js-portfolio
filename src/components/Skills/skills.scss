@@ -6,8 +6,9 @@
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
     font-size: 3rem;
-    padding: 20px;
+    padding: 24px;
     margin-bottom: 20px;
+    margin-left: 20px;
     letter-spacing: 0.5rem;
     text-align: center;
   }
@@ -16,22 +17,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
-    margin-top: 50px;
+    padding: 20px 50px;
+
     &__first {
-      border-radius: 24px;
       width: 100%;
       max-width: 400px;
 
-      &__sub-title {
-        text-align: center;
-        font-size: 1.2rem;
-      }
-
-      img {
-        width: 25px;
-        margin-left: 10px;
-      }
       h3 {
         font-size: 1.2rem;
         font-weight: 400;
@@ -40,15 +31,15 @@
       ul {
         display: flex;
         flex-wrap: wrap; // Liste öğelerini yan yana 2 şerli olarak düzenle
-        justify-content: space-between; // Liste öğelerini eşit aralıklarla dağıt
-        padding: 0;
+        justify-content: space-around; // Liste öğelerini eşit aralıklarla dağıt
+        // padding: 0;
         margin-top: 20px;
         li {
           a {
             text-decoration: none;
             color: black;
           }
-          flex-basis: 45%;
+
           list-style: none;
           padding: 10px;
           strong {
@@ -67,33 +58,21 @@
             content: "";
             display: block;
             position: absolute;
-            top: 0;
-            left: 0;
             height: 100%;
             width: calc(80px - 2px); // 80px boyanacak kısım
-            background-color: black;
+            background-color: #899384;
             border-radius: 12px;
           }
         }
       }
+      &__dot {
+        border-left: 2px solid #ccc;
+        height: 350px;
+      }
     }
     &__second {
-      width: 100%;
-      max-width: 400px;
-      height: 100%;
-      max-height: 550px;
-      p {
-        font-size: 1.2rem;
-
-        text-align: center;
-      }
-      img {
-        width: 30px;
-        margin-left: 10px;
-      }
       li {
         list-style: none;
-
         padding: 5px;
       }
 
@@ -108,7 +87,19 @@
 
   @media (max-width: 767px) {
     display: block;
-    width: 100%;
-    max-width: 360px;
+    &__container {
+      width: 100%;
+      max-width: 360px;
+      margin: 0 auto;
+      padding: 0;
+      &__first {
+        display: flex;
+        flex-direction: column;
+
+        &__dot {
+          display: none;
+        }
+      }
+    }
   }
 }

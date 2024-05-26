@@ -33,7 +33,7 @@
         p {
           font-style: italic;
           text-align: center;
-          color: #b38a9d;
+          color: #000;
           text-align: center;
         }
         img {
@@ -43,6 +43,13 @@
           object-fit: contain;
           display: block;
           margin: 0 auto;
+
+          position: relative;
+          &:hover {
+            opacity: 0.4;
+            transition: all 0.5s ease;
+            cursor: pointer;
+          }
         }
       }
 
@@ -55,17 +62,24 @@
           background-color: transparent;
           cursor: pointer;
           color: #000;
-          transition: all 0.5s ease;
+          transition: all 2s ease;
         }
         &:hover {
           transform: scale(1.1);
           border-bottom: #000 1px solid;
         }
       }
+      &__tech {
+        p {
+          color: gray;
+          font-size: 14px;
+          font-style: italic;
+        }
+      }
     }
   }
   &__more {
-    padding: 30px;
+    padding: 50px;
     &__cta {
       border: none;
       background: none;
@@ -81,7 +95,7 @@
 
       svg {
         transform: translateX(-8px);
-        transition: all 0.3s ease;
+        transition: all 1s ease;
       }
 
       &:hover svg {

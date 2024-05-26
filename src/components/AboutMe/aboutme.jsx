@@ -15,12 +15,12 @@ export default function AboutMe() {
         <div className="about__content__left">
           <div className="about__content__left__desc">
             {t(
-              "I have an interest in the field of web development, especially focused on the Frontend"
+              "My Name is Seda Mercan I'm 23 years old, I Studying Computer Engineering, I have an interest in the field of web development, especially focused on the Frontend"
             )}
-
-            {t(
-              "side where users interact directly. I am improving my skills in enriching user experience and designing user-friendly interfaces by working with technologies such as Javascript and React.Js."
-            )}
+            {t("side where users interact directly. ")}
+            <br></br>I am improving my skills in enriching user experience and
+            designing user-friendly interfaces by working with technologies such
+            as Javascript and React.Js.
           </div>
         </div>
       </div>

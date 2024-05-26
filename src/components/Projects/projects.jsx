@@ -1,5 +1,6 @@
 import "./projects.scss";
 
+import brick from "../../assets/unnamed.jpg";
 import nutrition from "../../assets/nutrition.png";
 import { useTranslation } from "react-i18next";
 
@@ -8,7 +9,7 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <div className="projects__title"> {t("Projects")}</div>{" "}
+      <div className="projects__title"> {t("My Projects")}</div>{" "}
       <div className="projects__container">
         <div className="projects__container__first">
           <div className="projects__container__first__title">
@@ -17,6 +18,9 @@ export default function Projects() {
               {t("Nutrition and Workout")}
               <br></br> {t("Full Stack Web Site")}
             </p>
+            <div className="projects__container__first__tech">
+              <p>Node.js, API,Bootstrap</p>
+            </div>
           </div>
           <div className="projects__container__first__button">
             <a
@@ -34,6 +38,9 @@ export default function Projects() {
               {t("Chess")}
               <br></br> {t("Full Stack Web Site (Team Work)")}
             </p>
+            <div className="projects__container__first__tech">
+              <p>Node.js, API,Bootstrap</p>
+            </div>
           </div>
           <div className="projects__container__sec__button">
             <a
@@ -46,11 +53,18 @@ export default function Projects() {
         </div>
         <div className="projects__container__third">
           <div className="projects__container__third__title">
-            <img src={nutrition} alt="nutrition" />
+            <img
+              src={brick}
+              alt="brick"
+              style={{ width: "250px", height: "150px" }}
+            />
             <p>
               {t("Brick Breaker Game")}
               <br></br> {t("Various Environment")}
             </p>
+            <div className="projects__container__first__tech">
+              <p>Node.js, API,Bootstrap</p>
+            </div>
           </div>
           <div className="projects__container__third__button">
             <a
