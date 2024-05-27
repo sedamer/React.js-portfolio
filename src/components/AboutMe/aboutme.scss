@@ -10,6 +10,7 @@
     font-size: 3.2rem;
     padding: 20px;
     letter-spacing: 5px;
+    font-style: italic;
   }
   &__content {
     &__left {
@@ -32,7 +33,6 @@
         display: flex;
         flex-direction: row;
         padding: 10px;
-        border: 1px solid #ccc;
         width: 100%;
         max-width: 720px;
         &__edu {
@@ -45,11 +45,6 @@
           }
           img {
             width: 35px;
-            margin-left: 10px;
-            margin-top: 5px;
-          }
-          &__edu {
-            padding-right: 40px;
           }
         }
         &__dot {

@@ -34,7 +34,6 @@ export function Mode() {
       <button onClick={toggleDarkMode}>
         {darkMode ? (
           <>
-            Light Mode
             <img
               src={moon}
               alt="moon"
@@ -43,7 +42,6 @@ export function Mode() {
           </>
         ) : (
           <>
-            Dark Mode
             <img src={sun} alt="sun" style={{ width: "35px" }} />
           </>
         )}

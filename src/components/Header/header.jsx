@@ -3,7 +3,7 @@ import "./header.scss";
 import { Link, Outlet } from "react-router-dom";
 
 import { Mode } from "../mode/mode";
-import logo from "../../assets/day-and-night (1).png";
+import logo from "../../assets/moon1.png";
 import { useTranslation } from "react-i18next";
 
 export default function Header() {
@@ -12,6 +12,7 @@ export default function Header() {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
+
   return (
     <header className="header">
       <div className="header__content">
@@ -20,6 +21,7 @@ export default function Header() {
             <Link to="/home">
               <img src={logo} alt="logo" style={{ width: "55px" }} />
             </Link>
+
             <li>
               <Link to="/home">{t("Home")}</Link>
             </li>
