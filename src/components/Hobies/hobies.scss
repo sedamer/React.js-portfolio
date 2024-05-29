@@ -4,7 +4,9 @@
   align-items: center;
   height: auto; // footewr  ve watcing movies i ayırdı.
   width: 100%;
-  min-height: 630px;
+  min-height: 700px;
+
+  z-index: -1;
 
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
@@ -32,7 +34,13 @@
         h3 {
           font-style: italic;
           font-size: 1.6rem;
-          color: #b38a9d;
+          border: 1px solid transparent;
+          background-color: #234f1e;
+          border-radius: 100px;
+          max-width: 1500px;
+          position: relative;
+          margin: 10px 10px 10px 10px;
+          color: #f9f9f4;
         }
         text-align: center;
         margin-bottom: 30px;

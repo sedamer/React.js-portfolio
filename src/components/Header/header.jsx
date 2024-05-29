@@ -3,7 +3,6 @@ import "./header.scss";
 import { Link, Outlet } from "react-router-dom";
 
 import { Mode } from "../mode/mode";
-import logo from "../../assets/moon1.png";
 import { useTranslation } from "react-i18next";
 
 export default function Header() {
@@ -18,10 +17,6 @@ export default function Header() {
       <div className="header__content">
         <nav className="header__content__nav">
           <ul>
-            <Link to="/home">
-              <img src={logo} alt="logo" style={{ width: "55px" }} />
-            </Link>
-
             <li>
               <Link to="/home">{t("Home")}</Link>
             </li>
@@ -29,16 +24,16 @@ export default function Header() {
               <Link to="/aboutMe">{t("About Me")}</Link>
             </li>
             <li>
-              <Link to="/skills"> {t("Skills")}</Link>
+              <Link to="/skills">{t("Skills")}</Link>
             </li>
             <li>
-              <Link to="/projects"> {t("Projects")}</Link>
+              <Link to="/projects">{t("Projects")}</Link>
             </li>
             <li>
-              <Link to="/hobies"> {t("Hobbies")}</Link>
+              <Link to="/hobies">{t("Hobbies")}</Link>
             </li>
             <li>
-              <Link to="/contact"> {t("Contact")}</Link>
+              <Link to="/contact">{t("Contact")}</Link>
             </li>
           </ul>
           <div className="header__content__section">

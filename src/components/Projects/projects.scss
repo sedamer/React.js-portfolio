@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  min-height: 630px;
+  min-height: 700px;
   flex-direction: column;
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
@@ -26,6 +26,7 @@
     &__first,
     &__sec,
     &__third {
+      z-index: -1;
       padding: 10px;
       width: 100%; /* Genişlik 100% */
       box-sizing: border-box;

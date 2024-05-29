@@ -3,7 +3,8 @@ import "./aboutme.scss";
 import cap from "../../assets/graduation-cap-variant.png";
 import graduate from "../../assets/diploma.png";
 import { useTranslation } from "react-i18next";
-import work from "../../assets/customer.png";
+
+// import work from "../../assets/customer.png";
 
 export default function AboutMe() {
   const { t } = useTranslation();
@@ -28,7 +29,7 @@ export default function AboutMe() {
             <div className="about__content__right__section__edu">
               <p>
                 {t("Education")}
-                <img src={graduate} alt="graduate" />
+                {/* <img src={graduate} alt="graduate" /> */}
               </p>
               <ul>
                 <li>
@@ -50,7 +51,7 @@ export default function AboutMe() {
             <div className="about__content__right__section__edu">
               <p>
                 {t("Experience")}
-                <img src={work} alt="work" />
+                {/* <img src={work} alt="work" /> */}
               </p>
               <ul>
                 <li>

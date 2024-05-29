@@ -85,7 +85,7 @@ export default function Skills() {
                     <span style={{ width: "80px" }}></span>
                   </p>
                 </li>
-                <li>
+                <li style={{ width: "80px" }}>
                   <strong>English</strong>
                   <br></br>
                   {t("B2-C1 Level")}
@@ -94,7 +94,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="skill__container__first__dot"></div>
+        {/* <div className="skill__container__first__dot"></div>
         <div className="skill__container__second">
           <p style={{ textAlign: "center", fontStyle: "italic" }}>
             {t("Certificates / Volunteers")}
@@ -119,7 +119,7 @@ export default function Skills() {
               <br></br>Digital bla bla bla
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -1,8 +1,6 @@
 import "./contact.scss";
 
-import email from "../../assets/communication.png";
 import emailjs from "@emailjs/browser";
-import map from "../../assets/map.png";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -37,19 +35,6 @@ export default function Contact() {
           {t("NICE TO MEET YOU!")}
         </h3>
       </div>
-      <div className="contact__reach">
-        <div className="contact__reach__email">
-          <img src={email} alt="email" />
-          <h3>{t("Email")}</h3>
-          <p>mrcnsedaa@gmail.com</p>
-        </div>
-        <div className="contact__reach__map">
-          <img src={map} alt="email" />
-          <h3>{t("Location")}</h3>
-          <p>{t("Adana/Turkey")}</p>
-        </div>
-      </div>
-
       <div className="contact__form">
         <div className="contact__form__container">
           <div className="contact__form__container__sub-title">
@@ -94,6 +79,13 @@ export default function Contact() {
           </form>
         </div>
       </div>
+      {/* <div className="contact__reach">
+        <div className="contact__reach__map">
+          <img src={map} alt="email" />
+          <h3>{t("Location")}</h3>
+          <p>{t("Adana/Turkey")}</p>
+        </div>
+      </div> */}
     </div>
   );
 }
