@@ -16,7 +16,7 @@
   "I have an interest in the field of web development, especially focused on the": "I have an interest in the field of web development, especially focused on the",
   "side where users interact directly. I am improving my skills in enriching user experience and designing user-friendly interfaces by working with technologies such as Javascript and React.Js.": "side where users interact directly. I am improving my skills in enriching user experience and designing user-friendly interfaces by working with technologies such as Javascript and React.Js.",
   "Education": "Education",
-  "Computer engineering": "Computer engineering",
+  "Computer Engineering": "Computer engineering",
   "Adana Alparslan Türkeş Science and Technology": "Adana Alparslan Türkeş Science and Technology",
   "University": "University",
   "Experience": "Experience",
@@ -48,5 +48,8 @@
   "Get in touch": "Get in touch",
   "Name": "Name",
   "Last Name": "Last Name",
-  "Message": "Message"
+  "Message": "Message",
+  "Download My CV": "Download My CV",
+  "Front-end Technologies": "Front-end Technologies",
+  "Version Control / Language": "Version Control/Language"
 }

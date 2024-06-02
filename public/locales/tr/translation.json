@@ -17,7 +17,7 @@
   "I have an interest in the field of web development, especially focused on the Frontend": "Web geliştirme alanına olan ilgim, özellikle kullanıcılarla doğrudan etkileşimde bulunulan Front-end tarafında yoğunlaşmış durumda.",
   "side where users interact directly. I am improving my skills in enriching user experience and designing user-friendly interfaces by working with technologies such as Javascript and React.Js.": "JavaScript ve React.JS gibi teknolojilerle çalışarak kullanıcı deneyimini zenginleştirme ve kullanıcı dostu arayüzler tasarlama becerilerimi geliştiriyorum.",
   "Education": "Eğitim",
-  "Computer engineering": "Bilgisayar Mühendisliği",
+  "Computer Engineering": "Bilgisayar Mühendisliği",
   "Adana Alparslan Türkeş Science and Technology": "Adana Alparslan Türkeş Bilim ve Teknoloji",
   "University": "Üniversitesi",
   "Experience": "Deneyim",
@@ -49,5 +49,8 @@
   "Get in touch": "İletişime geç",
   "Name": "Adınız",
   "Last Name": "Soyadınız",
-  "Message": "Mesajınız"
+  "Message": "Mesajınız",
+  "Download My CV": "Özgeçmişim",
+  "Front-end Technologies": "Front-end Teknolojileri",
+  "Version Control / Language": "Versiyon Kontrolleri / Dil"
 }
