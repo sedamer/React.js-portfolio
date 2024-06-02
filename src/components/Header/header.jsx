@@ -1,7 +1,5 @@
 import "./header.scss";
 
-import { Link, Outlet } from "react-router-dom";
-
 import { Mode } from "../mode/mode";
 import { useTranslation } from "react-i18next";
 
@@ -18,22 +16,22 @@ export default function Header() {
         <nav className="header__content__nav">
           <ul>
             <li>
-              <Link to="/home">{t("Home")}</Link>
+              <a href="#home">{t("Home")}</a>
             </li>
             <li>
-              <Link to="/aboutMe">{t("About Me")}</Link>
+              <a href="#aboutMe">{t("About Me")}</a>
             </li>
             <li>
-              <Link to="/skills">{t("Skills")}</Link>
+              <a href="#skills">{t("Skills")}</a>
             </li>
             <li>
-              <Link to="/projects">{t("Projects")}</Link>
+              <a href="#projects">{t("Projects")}</a>
             </li>
             <li>
-              <Link to="/hobies">{t("Hobbies")}</Link>
+              <a href="#hobies">{t("Hobbies")}</a>
             </li>
             <li>
-              <Link to="/contact">{t("Contact")}</Link>
+              <a href="#contact">{t("Contact")}</a>
             </li>
           </ul>
           <div className="header__content__section">
@@ -53,7 +51,6 @@ export default function Header() {
           </div>
         </nav>
       </div>
-      <Outlet />
     </header>
   );
 }

@@ -11,7 +11,7 @@ export default function Hobbies() {
   return (
     <div className="hobbies">
       <div className="hobbies__title">{t("Hobby Area")}</div>
-
+      <div className="hobbies__line"></div>
       <div className="hobbies__alan">
         <div className="hobbies__alan__bir">
           <div className="hobbies__alan__bir__desc">

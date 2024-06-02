@@ -1,10 +1,6 @@
 import "./aboutme.scss";
 
-import cap from "../../assets/graduation-cap-variant.png";
-import graduate from "../../assets/diploma.png";
 import { useTranslation } from "react-i18next";
-
-// import work from "../../assets/customer.png";
 
 export default function AboutMe() {
   const { t } = useTranslation();
@@ -19,17 +15,21 @@ export default function AboutMe() {
               "My Name is Seda Mercan I'm 23 years old, I Studying Computer Engineering, I have an interest in the field of web development, especially focused on the Frontend"
             )}
             {t("side where users interact directly. ")}
-            <br></br>I am improving my skills in enriching user experience and
-            designing user-friendly interfaces by working with technologies such
-            as Javascript and React.Js.
           </div>
         </div>
         <div className="about__content__right">
           <div className="about__content__right__section">
             <div className="about__content__right__section__edu">
-              <p>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.5rem",
+                  fonamtFamily: " SourceSans3-ExtraLightItalic",
+                  letterSpacing: "0.5rem",
+                  padding: " 10px",
+                }}
+              >
                 {t("Education")}
-                {/* <img src={graduate} alt="graduate" /> */}
               </p>
               <ul>
                 <li>
@@ -40,18 +40,22 @@ export default function AboutMe() {
                     {t("University")}
                   </p>
                   <p>3.20 | 4.00</p>
-                  <p>
-                    <img src={cap} alt="cap" />
-                    2019-2024
-                  </p>
+                  <p>2019-2024</p>
                 </li>
               </ul>
             </div>
             <div className="about__content__right__section__dot"></div>
             <div className="about__content__right__section__edu">
-              <p>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "1.5rem",
+                  fonamtFamily: " SourceSans3-ExtraLightItalic",
+                  letterSpacing: "0.5rem",
+                  padding: " 10px",
+                }}
+              >
                 {t("Experience")}
-                {/* <img src={work} alt="work" /> */}
               </p>
               <ul>
                 <li>

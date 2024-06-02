@@ -38,12 +38,12 @@
             width: 120px;
             border: none;
             background-color: transparent;
-            color: #000;
+            color: #315b00;
             transition: all 2s ease;
             cursor: pointer;
             &:hover {
               transform: scale(1.1);
-              border-bottom: #000 1px solid;
+              border-bottom: #315b00 1px solid;
             }
           }
         }
@@ -63,49 +63,6 @@
         }
       }
     }
-
-    // &__right {
-    //   display: flex;
-    //   justify-content: center;
-    //   align-items: center;
-    //   margin-bottom: 50px;
-    //   img {
-    //     max-width: 100%;
-    //     height: auto;
-    //     max-height: 400px;
-    //     transition: transform 0.3s ease;
-    //     box-shadow: 0 0 0 2px rgb(28, 22, 23), 8px 8px 0 0 rgb(29, 24, 25);
-    //     padding: 15px;
-
-    //     &:hover {
-    //       transform: scale(1.1);
-    //     }
-    //   }
-    // }
-  }
-
-  @media (max-width: 767px) {
-    &__content {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-
-      &__left {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-
-        &__button {
-          justify-content: center;
-
-          button {
-            margin: 0 10px;
-          }
-        }
-      }
-    }
   }
   &__contact {
     display: flex;
@@ -116,7 +73,7 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     border-radius: 30px;
     position: fixed;
-    left: 90%;
+    left: calc(100% - 70px); /* Adjusted for mobile */
     img {
       width: 60px;
       height: 60px;
@@ -125,6 +82,49 @@
       &:hover {
         transform: scale(1.1);
       }
+    }
+  }
+  @media (max-width: 767px) {
+    flex-direction: column; /* Adjust layout for mobile */
+    min-height: auto; /* Adjust min-height for mobile */
+
+    &__content {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center;
+      padding: 60px; /* Add padding for better spacing */
+
+      &__left {
+        align-items: center;
+        text-align: center; /* Center text */
+
+        &__title {
+          font-size: 2rem; /* Adjust font size for mobile */
+        }
+
+        &__desc {
+          font-size: 1em; /* Adjust font size for mobile */
+        }
+
+        &__buttons {
+          flex-direction: column; /* Stack buttons vertically */
+          align-items: center;
+
+          &__button,
+          &__button2 {
+            margin-bottom: 10px; /* Add spacing between buttons */
+          }
+
+          &__button button,
+          &__button2 button {
+            margin: 10px 0; /* Adjust button margin */
+          }
+        }
+      }
+    }
+
+    &__contact {
+      left: calc(100% - 150px); /* Adjust positioning for mobile */
+      bottom: 100px; /* Ensure it's visible */
     }
   }
 }

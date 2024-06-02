@@ -1,6 +1,7 @@
 import "./home.scss";
 
-import { Link } from "react-router-dom";
+import { Element, Link as ScrollLink } from "react-scroll";
+
 import cv from "../../assets/Seda-Mercan-Özgeçmiş.pdf";
 import email from "../../assets/email.png";
 import github from "../../assets/program.png";
@@ -32,9 +33,9 @@ export default function Home() {
             </div>
             <div className="home__content__left__buttons">
               <div className="home__content__left__buttons__button">
-                <Link to="/contact">
+                <ScrollLink to="contact" smooth={true} duration={500}>
                   <button>{t("Contact with me")}</button>
-                </Link>
+                </ScrollLink>
               </div>
               <div className="home__content__left__buttons__button2">
                 <button onClick={downloadCV}>{t("Download My CV")}</button>

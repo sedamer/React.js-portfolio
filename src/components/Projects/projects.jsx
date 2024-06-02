@@ -1,7 +1,5 @@
 import "./projects.scss";
 
-import brick from "../../assets/unnamed.jpg";
-import nutrition from "../../assets/nutrition.png";
 import { useTranslation } from "react-i18next";
 
 export default function Projects() {
@@ -13,7 +11,6 @@ export default function Projects() {
       <div className="projects__container">
         <div className="projects__container__first">
           <div className="projects__container__first__title">
-            <img src={nutrition} alt="nutrition" />
             <p>
               {t("Nutrition and Workout")}
               <br></br> {t("Full Stack Web Site")}
@@ -33,7 +30,6 @@ export default function Projects() {
         </div>
         <div className="projects__container__sec">
           <div className="projects__container__sec__title">
-            <img src={nutrition} alt="nutrition" />
             <p>
               {t("Chess")}
               <br></br> {t("Full Stack Web Site (Team Work)")}
@@ -53,11 +49,6 @@ export default function Projects() {
         </div>
         <div className="projects__container__third">
           <div className="projects__container__third__title">
-            <img
-              src={brick}
-              alt="brick"
-              style={{ width: "250px", height: "150px" }}
-            />
             <p>
               {t("Brick Breaker Game")}
               <br></br> {t("Various Environment")}

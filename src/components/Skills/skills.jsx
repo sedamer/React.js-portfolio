@@ -10,7 +10,7 @@ export default function Skills() {
       <div className="skill__title">
         Quali-<br></br>fi-<br></br>ca-<br></br>tion
       </div>
-
+      <div className="line"></div>
       <div className="skill__container">
         <div className="skill__container__first">
           <div className="skill__container__first__frontend">
