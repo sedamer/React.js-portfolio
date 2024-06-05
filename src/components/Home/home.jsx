@@ -8,6 +8,7 @@ import github from "../../assets/program.png";
 import lavander from "../../assets/flower.png";
 import linkedin from "../../assets/social.png";
 import me from "../../assets/me1.jpg";
+import svg from "../../assets/la.png";
 import { useTranslation } from "react-i18next";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
     <>
       <div className="home">
         <div className="home__content">
+          <img src={svg} alt="svg" className="home__content__svg" />
           <div className="home__content__left">
             <div className="home__content__left__title">
               {t("Hi, I'm Seda")}

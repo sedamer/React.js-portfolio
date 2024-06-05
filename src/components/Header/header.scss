@@ -14,7 +14,6 @@
       box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
       border-radius: 24px;
       background-color: white;
-      position: fixed;
       width: 1000px;
       ul {
         display: flex;
@@ -65,7 +64,7 @@
     }
   }
 }
-@media (min-width: 76px) {
+@media (min-width: 767px) {
   .header {
     &__content {
       width: 100;
