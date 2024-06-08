@@ -86,6 +86,11 @@ export default function Contact() {
           <p>{t("Adana/Turkey")}</p>
         </div>
       </div> */}
+      <footer className="footer">
+        <span className="footer__content__copy">
+          &#169; {t("Seda Mercan. All rigths reserved")}
+        </span>
+      </footer>
     </div>
   );
 }

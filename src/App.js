@@ -1,6 +1,5 @@
 import AboutMe from "./components/AboutMe/aboutme";
 import Contact from "./components/Contact/contact";
-import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
 import Hobies from "./components/Hobies/hobies";
 import Home from "./components/Home/home";
@@ -32,7 +31,6 @@ function App() {
         <div id="contact">
           <Contact />
         </div>
-        <Footer />
       </React.Fragment>
     </Router>
   );

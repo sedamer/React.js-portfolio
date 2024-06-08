@@ -1,17 +1,19 @@
 import "./home.scss";
 
-import { Element, Link as ScrollLink } from "react-scroll";
-
+import { Link as ScrollLink } from "react-scroll";
 import cv from "../../assets/Seda-Mercan-Özgeçmiş.pdf";
-import email from "../../assets/email.png";
-import github from "../../assets/program.png";
+import email from "../../assets/icons8-gmail-logo.svg";
+import github from "../../assets/icons8-github (1).svg";
 import lavander from "../../assets/flower.png";
-import linkedin from "../../assets/social.png";
-import me from "../../assets/me1.jpg";
-import svg from "../../assets/la.png";
+import linkedin from "../../assets/icons8-linkedin.svg";
+import moon from "../../assets/pngwing.com (5).png";
 import { useTranslation } from "react-i18next";
 
-export default function Home() {
+// import medium from "../../assets/icons8-medium.svg";
+
+// import spotify from "../../assets/icons8-spotify.svg";
+
+const Home = () => {
   const { t } = useTranslation();
   const downloadCV = () => {
     const link = document.createElement("a");
@@ -23,7 +25,6 @@ export default function Home() {
     <>
       <div className="home">
         <div className="home__content">
-          <img src={svg} alt="svg" className="home__content__svg" />
           <div className="home__content__left">
             <div className="home__content__left__title">
               {t("Hi, I'm Seda")}
@@ -44,19 +45,31 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="home__content__right">
+            <img src={moon} alt="" id="home_img" />
+          </div>
         </div>
         <div className="home__contact" target="__blank">
           <a href="https://www.linkedin.com/in/seda-mercan-b8b7a5222/">
             <img src={github} alt="github" />{" "}
           </a>
-          <a href="https://github.com/sedamer" target="__blank">
-            <img src={linkedin} alt="linkedin" />
-          </a>
+
           <a href="mailto:mrcnsedaa@gmail.com" target="__blank">
             <img src={email} alt="email" />
           </a>
+          <a href="https://github.com/sedamer" target="__blank">
+            <img src={linkedin} alt="linkedin" />
+          </a>
+          {/* <a href="https://github.com/sedamer" target="__blank">
+            <img src={medium} alt="linkedin" />
+          </a>
+          <a href="https://github.com/sedamer" target="__blank">
+            <img src={spotify} alt="linkedin" />
+          </a> */}
         </div>
       </div>
     </>
   );
-}
+};
+
+export default Home;

@@ -3,30 +3,25 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  min-height: 700px;
+  min-height: 800px;
   flex-direction: column;
-  border: 1px solid #ccc;
-  background-color: #315b00;
-  border-radius: 70px;
-  color: #f9f9f4;
-  z-index: -1;
-
+  background-image: url("../../assets/aboutme.jpg");
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
     font-size: 3.2rem;
-    padding: 20px;
+    padding: 70px;
     letter-spacing: 5px;
-    color: #efd93a;
+    color: #fff;
   }
   &__content {
     &__left {
       display: flex;
       justify-content: center;
       align-items: baseline;
+      color: #fff;
       &__desc {
         width: 60%;
         text-align: center;
-        margin: 30px;
         font-family: SourceSans3-ExtraLightItalic;
         font-size: 1.1rem;
       }
@@ -40,12 +35,10 @@
       &__section {
         display: flex;
         flex-direction: row;
-        padding: 10px;
         width: 100%;
         max-width: 720px;
         &__edu {
           transition: all 2s ease;
-
           li {
             text-align: left;
             font-family: SourceSans3-ExtraLightItalic;
@@ -59,7 +52,7 @@
 
           &:hover {
             width: 100%;
-            background-color: transparent;
+            background-color: #fff;
             color: #000;
             border-bottom: #000 1px solid;
             border-radius: 10px;
