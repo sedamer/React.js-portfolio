@@ -1,19 +1,17 @@
 .hobbies {
   display: flex;
-  flex-direction: column; // Mobil görünümde alt alta gelecek
+  flex-direction: column;
   align-items: center;
   width: 100%;
-  min-height: 700px;
-
+  min-height: 800px;
   color: #f9f9f4;
-  background-image: url(../../assets/hobiler.jpg);
+  background-image: url(../../assets/projects.jpg);
 
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
     font-size: 2.8rem;
     padding: 20px;
-    margin-bottom: 20px;
-
+    margin-top: 4%;
     letter-spacing: 0.5rem;
   }
 
@@ -22,7 +20,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
 
     &__bir,
     &__iki,

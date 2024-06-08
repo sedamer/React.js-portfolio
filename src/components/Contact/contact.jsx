@@ -38,7 +38,6 @@ export default function Contact() {
       <div className="contact__form">
         <div className="contact__form__container">
           <div className="contact__form__container__sub-title">
-            {" "}
             {t("Stay in Touch.")}
           </div>
           <form
@@ -79,18 +78,6 @@ export default function Contact() {
           </form>
         </div>
       </div>
-      {/* <div className="contact__reach">
-        <div className="contact__reach__map">
-          <img src={map} alt="email" />
-          <h3>{t("Location")}</h3>
-          <p>{t("Adana/Turkey")}</p>
-        </div>
-      </div> */}
-      <footer className="footer">
-        <span className="footer__content__copy">
-          &#169; {t("Seda Mercan. All rigths reserved")}
-        </span>
-      </footer>
     </div>
   );
 }

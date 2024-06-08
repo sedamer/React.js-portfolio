@@ -3,10 +3,10 @@
   align-items: center;
   width: 100%;
   min-height: 800px;
-  background-image: url(../../assets/lal.jpg);
+  background-image: url(../../assets/i.jpg);
   &__title {
-    font-family: SourceSans3-ExtraLightItalic;
     font-size: 4rem;
+    font-weight: lighter;
     padding: 24px;
     letter-spacing: 0.5rem;
     text-align: center;
@@ -17,25 +17,19 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    padding: 20px 50px;
-    border: 1px solid transparent;
-    border-radius: 50px;
-    width: 500px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: center;
+    align-items: center;
 
     &__first {
       color: #fff;
 
       p {
         font-size: 1.4rem;
-        font-weight: 400;
-        color: #fff;
+        font-weight: 100;
       }
       ul {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 20px;
         li {
           a {
             text-decoration: none;
@@ -44,16 +38,13 @@
           text-align: center;
           list-style: none;
           padding: 10px;
-          strong {
-            font-weight: 6700;
-          }
 
           p {
             border: 1px solid #4e4e54;
-            height: 4.5px;
-            width: 100px;
+            height: 4.8px;
+            width: 110px;
             border-radius: 12px;
-            position: relative; // Mutlaka pozisyon: relative olmalı
+            position: relative;
           }
 
           p span {
@@ -61,28 +52,11 @@
             display: block;
             position: absolute;
             height: 100%;
-            width: calc(80px - 2px); // 80px boyanacak kısım
-            background-color: #4e4e54;
+            width: calc(80px - 2px);
+            background-color: #ccc;
             border-radius: 12px;
           }
         }
-      }
-      &__dot {
-        border-left: 2px solid #ccc;
-        height: 350px;
-      }
-    }
-    &__second {
-      li {
-        list-style: none;
-        padding: 5px;
-      }
-
-      &__link {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
       }
     }
   }

@@ -20,9 +20,8 @@
 
       &__title {
         padding: 10px;
-        font-family: Quicksand-Light;
         font-size: 4.3rem;
-        margin: 10px;
+        font-weight: 100;
       }
 
       &__desc {
@@ -34,12 +33,10 @@
       }
       &__buttons {
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
         &__button {
           button {
             font-size: 15px;
-            width: 120px;
             border: none;
             background-color: transparent;
             color: white;
@@ -72,8 +69,8 @@
       justify-content: center;
       align-items: center;
       img {
-        width: 300px;
-        height: 300px;
+        width: 550px;
+        height: 500px;
       }
       @keyframes moveUpDown {
         0% {
@@ -90,7 +87,7 @@
       }
 
       #home_img {
-        animation: moveUpDown 3s ease infinite;
+        animation: moveUpDown 4s ease infinite;
       }
     }
   }
@@ -103,7 +100,7 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     border-radius: 30px;
     position: fixed;
-    left: calc(100% - 70px);
+    left: calc(100% - 100px);
     img {
       width: 60px;
       height: 60px;
@@ -115,49 +112,49 @@
     }
   }
   @media (max-width: 767px) {
-    flex-direction: column; /* Adjust layout for mobile */
-    min-height: auto; /* Adjust min-height for mobile */
+    flex-direction: column;
+    min-height: auto;
 
     &__content {
-      flex-direction: column; /* Stack elements vertically */
+      flex-direction: column;
       align-items: center;
-      padding: 60px; /* Add padding for better spacing */
+      padding: 60px;
       &__svg {
         display: none;
       }
       &__left {
         align-items: center;
-        text-align: center; /* Center text */
+        text-align: center;
         position: relative;
         right: 0;
         &__title {
-          font-size: 2rem; /* Adjust font size for mobile */
+          font-size: 2rem;
         }
 
         &__desc {
-          font-size: 1em; /* Adjust font size for mobile */
+          font-size: 1em;
         }
 
         &__buttons {
-          flex-direction: column; /* Stack buttons vertically */
+          flex-direction: column;
           align-items: center;
 
           &__button,
           &__button2 {
-            margin-bottom: 10px; /* Add spacing between buttons */
+            margin-bottom: 10px;
           }
 
           &__button button,
           &__button2 button {
-            margin: 10px 0; /* Adjust button margin */
+            margin: 10px 0;
           }
         }
       }
     }
 
     &__contact {
-      left: calc(100% - 50px); /* Adjust positioning for mobile */
-      bottom: 100px; /* Ensure it's visible */
+      left: calc(100% - 50px);
+      bottom: 100px;
     }
   }
 }

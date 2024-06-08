@@ -2,16 +2,15 @@
   display: flex;
   align-items: center;
   width: 100%;
-  min-height: 700px;
+  min-height: 800px;
   flex-direction: column;
-  background-image: url("../../assets/degiss.jpg");
+  background-image: url("../../assets/hobiler.jpg");
   &__title {
     font-family: SourceSans3-ExtraLightItalic;
     font-size: 2.8rem;
     margin-bottom: 50px;
-    margin-top: 30px;
-    color: #315b00;
-
+    margin-top: 5%;
+    color: #fff;
     letter-spacing: 0.5rem;
   }
 
@@ -25,12 +24,13 @@
     max-height: 300px;
     display: flex;
     justify-content: center;
-    flex-direction: row; /* Yatayda değil, dikeyde düzenleme */
+    flex-direction: row;
+    margin-top: 8%;
     &__first,
     &__sec,
     &__third {
       padding: 10px;
-      width: 100%; /* Genişlik 100% */
+      width: 100%;
       box-sizing: border-box;
       transition: all 2s ease;
 
@@ -45,7 +45,7 @@
         p {
           font-style: italic;
           text-align: center;
-          color: #000;
+          color: #fff;
           text-align: center;
         }
       }
@@ -58,7 +58,7 @@
           border: none;
           background-color: transparent;
           cursor: pointer;
-          color: #000;
+          color: #fff;
           transition: all 2s ease;
         }
         &:hover {
@@ -67,7 +67,7 @@
       }
       &__tech {
         p {
-          color: gray;
+          color: #ccc;
           font-size: 14px;
           font-style: italic;
         }
@@ -106,7 +106,7 @@
 
       .hover-underline-animation {
         position: relative;
-        color: #315b00;
+        color: #fff;
         padding-bottom: 20px;
 
         &:after {
@@ -117,7 +117,7 @@
           height: 2px;
           bottom: 0;
           left: 0;
-          background-color: #000000;
+          background-color: #fff;
           transform-origin: bottom right;
           transition: transform 0.25s ease-out;
         }

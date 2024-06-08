@@ -94,32 +94,6 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        {/* <div className="skill__container__first__dot"></div>
-        <div className="skill__container__second">
-          <p style={{ textAlign: "center", fontStyle: "italic" }}>
-            {t("Certificates / Volunteers")}
-          </p>
-          <ul>
-            <li>
-              <strong>{t("SistersLab Academy")}</strong>
-              <br></br>
-              {t("Frontend Development Bootcamp (120 hours)")}
-            </li>
-            <li>
-              <strong>YGA</strong>
-              <br></br>
-              {t("Role Model Women in Technology Program (3 months)")}
-            </li>
-            <li>
-              <strong> {t("Ada Lovelace Academy")}</strong>
-              <br></br> {t("Volunteer Project Assistant (1 month)")}
-            </li>
-            <li>
-              <strong>YGA</strong>
-              <br></br>Digital bla bla bla
-            </li>
-          </ul>
-        </div> */}
       </div>
     </div>
   );
