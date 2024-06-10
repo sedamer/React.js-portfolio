@@ -8,7 +8,7 @@
   background-image: url(../../assets/projects.jpg);
 
   &__title {
-    font-family: SourceSans3-ExtraLightItalic;
+    font-weight: 100;
     font-size: 2.8rem;
     padding: 20px;
     margin-top: 4%;
@@ -24,9 +24,12 @@
     &__bir,
     &__iki,
     &__uc {
+      backdrop-filter: invert(75%);
+      border-radius: 24px;
       width: 100%;
+      margin: 15px;
       padding: 5px;
-      border-top: 1px solid #ccc;
+      border: 1px solid transparent;
 
       &__desc {
         h3 {
@@ -50,7 +53,6 @@
         transition: transform 0.3s ease;
 
         &:hover {
-          opacity: 0.7;
           transform: scale(1.1);
         }
       }

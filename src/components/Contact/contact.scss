@@ -19,6 +19,7 @@
     &__container {
       display: flex;
       justify-content: center;
+      align-items: flex-start;
 
       &__sub-title {
         font-family: SourceSans3-ExtraLightItalic;
@@ -54,7 +55,9 @@
             width: 100px;
             height: 40px;
             color: #fff;
+            border-radius: 24px;
             cursor: pointer;
+            background-color: transparent;
           }
         }
       }

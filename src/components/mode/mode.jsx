@@ -1,4 +1,4 @@
-import "./mode.scss"; // SCSS dosyasını ekliyoruz
+import "./mode.scss";
 
 import { useEffect, useState } from "react";
 
@@ -49,5 +49,3 @@ export function Mode() {
     </div>
   );
 }
-
-// useEffecct :belirli bir değişkene bağlı olarak çalıştırma

@@ -1,5 +1,6 @@
 import "./contact.scss";
 
+import Scroll from "../ScrollButton/ScrollButton";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
@@ -64,7 +65,7 @@ export default function Contact() {
               placeholder={t("Email")}
               name="user_email"
               required
-            ></input>{" "}
+            ></input>
             <br></br>
             <textarea
               placeholder={t("Message")}
@@ -78,6 +79,7 @@ export default function Contact() {
           </form>
         </div>
       </div>
+      <Scroll />
     </div>
   );
 }

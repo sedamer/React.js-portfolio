@@ -1,0 +1,18 @@
+.scroll-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 250px;
+  button {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 1s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

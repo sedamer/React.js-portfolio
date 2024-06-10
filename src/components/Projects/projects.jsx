@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <div className="projects__title"> {t("My Projects")}</div>{" "}
+      <div className="projects__title"> {t("My Projects")}</div>
       <div className="projects__container">
         <div className="projects__container__first">
           <div className="projects__container__first__title">
@@ -54,7 +54,7 @@ export default function Projects() {
               <br></br> {t("Various Environment")}
             </p>
             <div className="projects__container__first__tech">
-              <p>Node.js, API,Bootstrap</p>
+              <p>OpenGl,WinBGIm,MinGW </p>
             </div>
           </div>
           <div className="projects__container__third__button">
