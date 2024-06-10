@@ -140,7 +140,8 @@
     width: 100%;
     min-height: 1000px;
     &__container {
-      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
       display: block;
     }
     &__more {

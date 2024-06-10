@@ -16,3 +16,12 @@
     }
   }
 }
+@media (max-width: 767px) {
+  .scroll-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    top: 10px;
+  }
+}

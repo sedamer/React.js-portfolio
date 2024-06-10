@@ -17,6 +17,7 @@ function App() {
         <div id="home">
           <Home />
         </div>
+
         <div id="aboutMe">
           <AboutMe />
         </div>

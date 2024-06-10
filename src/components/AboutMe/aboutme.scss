@@ -79,15 +79,14 @@
         align-items: baseline;
       }
       &__right {
-        width: 100%;
+        width: 80%;
 
         &__section {
           display: flex;
           flex-direction: column;
 
           &__dot {
-            border-left: 2px solid #ccc;
-            height: 100%;
+            display: none;
           }
         }
       }

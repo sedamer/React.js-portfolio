@@ -4,12 +4,13 @@
   align-items: center;
   width: 100%;
   position: fixed;
+
   &__content {
     background-color: transparent;
     &__nav {
       ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         list-style: none;
         padding: 0;
         gap: 30px;
@@ -53,14 +54,15 @@
     }
   }
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   .header {
+    position: unset;
     &__content {
       &__nav {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         ul {
-          flex-direction: row;
+          flex-direction: column;
           justify-content: center;
           li {
             margin-bottom: 0;

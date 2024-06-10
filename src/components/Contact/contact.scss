@@ -66,5 +66,26 @@
 
   @media (max-width: 767px) {
     display: block;
+    &__form {
+      &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__text {
+          width: 100%;
+          max-width: 1000px;
+          input {
+            width: 100%;
+            max-width: auto;
+          }
+          textarea {
+            width: 100%;
+            max-width: auto;
+          }
+        }
+      }
+    }
   }
 }
