@@ -33,7 +33,10 @@ export default function Hobbies() {
             )}
           </div>
           <div className="hobbies__alan__iki__img">
-            <a href="https://vsco.co/moonbeee/gallery" target="__blank">
+            <a
+              href="https://www.goodreads.com/user/show/177790946-seda-mercan"
+              target="__blank"
+            >
               <img src={goodreads} alt="good" />
             </a>
           </div>
@@ -47,7 +50,10 @@ export default function Hobbies() {
             )}
           </div>
           <div className="hobbies__alan__uc__img">
-            <a href="https://vsco.co/moonbeee/gallery" target="__blank">
+            <a
+              href="https://letterboxd.com/moonchildbe/films/"
+              target="__blank"
+            >
               <img src={letterboxd} alt="film" />
             </a>
           </div>
