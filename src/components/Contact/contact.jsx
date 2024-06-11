@@ -1,14 +1,16 @@
 import "./contact.scss";
 
+import { useRef, useState } from "react";
+
 import Scroll from "../ScrollButton/ScrollButton";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Contact() {
   const { t } = useTranslation();
 
   const form = useRef();
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,10 +22,12 @@ export default function Contact() {
       .then(
         (result) => {
           console.log("SUCCESS!", result.text);
+          setMessage("Message Send!");
           e.target.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setMessage("Message Failed. Please try again.");
         }
       );
   };
@@ -76,6 +80,7 @@ export default function Contact() {
             <div className="contact__form__container__text__send">
               <button type="submit">{t("Get in touch")}</button>
             </div>
+            {message && <p className="contact__form__message">{message}</p>}{" "}
           </form>
         </div>
       </div>
