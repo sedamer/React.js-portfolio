@@ -6,8 +6,7 @@ import email from "../../assets/icons8-gmail-logo.svg";
 import github from "../../assets/icons8-github (1).svg";
 import lavander from "../../assets/flower.png";
 import linkedin from "../../assets/icons8-linkedin.svg";
-import moon from "../../assets/q.png";
-import sun from "../../assets/suhn2.png";
+import moon from "../../assets/moon.png";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {

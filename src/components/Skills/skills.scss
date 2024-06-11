@@ -3,7 +3,7 @@
   align-items: center;
   width: 100%;
   min-height: 800px;
-  background-image: url(../../assets/i.jpg);
+  background-image: url(../../assets/skills.jpg);
   &__title {
     font-size: 4rem;
     font-weight: lighter;
@@ -76,5 +76,13 @@
         }
       }
     }
+  }
+}
+@media screen and (max-width: 2993px) {
+  .skill {
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+    background-size: cover;
   }
 }

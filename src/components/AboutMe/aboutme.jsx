@@ -69,7 +69,7 @@ const AboutMe = () => {
                   <p>
                     <i>{t("Adana Büyükşehir Belediyesi")}</i>
                   </p>
-                  <p>02/2023 -08/2023</p>
+                  <p>07/2023 -08/2023</p>
                 </li>
               </ul>
             </div>

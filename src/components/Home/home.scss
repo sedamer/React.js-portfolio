@@ -4,7 +4,7 @@
   width: 100%;
   min-height: 800px;
   color: white;
-  background-image: url(../../assets/ü.jpg);
+  background-image: url(../../assets/home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   &__content {
@@ -154,5 +154,12 @@
       left: calc(100% - 50px);
       bottom: 100px;
     }
+  }
+}
+
+@media screen and (max-width: 2993px) {
+  .home {
+    width: 100%;
+    min-height: 950px;
   }
 }

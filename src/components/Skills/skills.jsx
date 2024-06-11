@@ -33,7 +33,7 @@ export default function Skills() {
                 </a>
                 <br></br>{" "}
                 <p>
-                  <span style={{ width: "70px" }}></span>
+                  <span style={{ width: "75px" }}></span>
                 </p>
               </li>{" "}
               <li>
@@ -42,7 +42,7 @@ export default function Skills() {
                 </a>
                 <br></br>{" "}
                 <p>
-                  <span style={{ width: "60px" }}></span>
+                  <span style={{ width: "65px" }}></span>
                 </p>
               </li>{" "}
               <li>
@@ -51,7 +51,7 @@ export default function Skills() {
                 </a>
                 <br></br>{" "}
                 <p>
-                  <span style={{ width: "50px" }}></span>
+                  <span style={{ width: "60px" }}></span>
                 </p>
               </li>{" "}
               <li>
@@ -60,7 +60,7 @@ export default function Skills() {
                 </a>
                 <br></br>{" "}
                 <p>
-                  <span style={{ width: "55px" }}></span>
+                  <span style={{ width: "65px" }}></span>
                 </p>
               </li>
               <li>
