@@ -38,7 +38,7 @@ const AboutMe = () => {
                     <br></br>
                     {t("University")}
                   </p>
-                  <p>3.20 | 4.00</p>
+                  <p>3.31 | 4.00</p>
                   <p>2019-2024</p>
                 </li>
               </ul>
