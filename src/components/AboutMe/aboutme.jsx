@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div className="about__content__left">
           <div className="about__content__left__desc">
             {t(
-              "My Name is Seda Mercan I'm 23 years old, I Studying Computer Engineering, I have an interest in the field of web development, especially focused on the Frontend side where users interact directly. "
+              "My name is Seda Mercan. I'm 23 years old and I have completed my degree in Computer Engineering. I have a strong interest in web development, particularly focusing on the Frontend side, where users interact directly."
             )}
           </div>
         </div>
@@ -62,7 +62,7 @@ const AboutMe = () => {
                   <p>
                     <i>Brew Interactive</i>
                   </p>
-                  <p>02/2024 - present</p>
+                  <p>02/2024 - 07/2024</p>
                 </li>
                 <li>
                   <p>{t("Computer Engineering Intern")}</p>

@@ -1,7 +1,7 @@
 import "./home.scss";
 
 import { Link as ScrollLink } from "react-scroll";
-import cv from "../../assets/Seda-Mercan-Özgeçmiş.pdf";
+import cv from "../../assets/Seda-MercanÖzgeçmiş.pdf";
 import email from "../../assets/icons8-gmail-logo.svg";
 import github from "../../assets/icons8-github (1).svg";
 import lavander from "../../assets/flower.png";
@@ -28,7 +28,6 @@ const Home = () => {
             </div>
             <div className="home__content__left__desc">
               {t("Junior Front-End Developer")} <br />
-              {t("Senior Computer Engineering Student")}
             </div>
             <div className="home__content__left__buttons">
               <div className="home__content__left__buttons__button">

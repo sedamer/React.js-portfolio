@@ -24,25 +24,25 @@
         text-align: center;
         font-family: SourceSans3-ExtraLightItalic;
         font-size: 1.2rem;
-        color: #ccc;
+        color: #fff;
       }
     }
     &__right {
       display: flex;
       align-items: center;
       justify-content: center;
-      border: 1px solid transparent;
-      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
-      backdrop-filter: blur(5px);
-      border-radius: 38px;
+      backdrop-filter: blur(2px);
       width: 90%;
       margin: 30px;
       &__section {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        color: #fff;
+
         &__edu {
           transition: all 2s ease;
+
           li {
             text-align: left;
             font-family: SourceSans3-ExtraLightItalic;
@@ -56,7 +56,6 @@
 
           &:hover {
             width: 90%;
-            color: #000;
             transition: all 0.5s ease;
             cursor: pointer;
             padding: 10px;
