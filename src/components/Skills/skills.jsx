@@ -56,7 +56,43 @@ export default function Skills() {
               </li>{" "}
               <li>
                 <a href="https://reactjs.org/">
-                  <strong>React</strong>
+                  <strong>React.js</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "65px" }}></span>
+                </p>
+              </li>
+              <li>
+                <a href="https://reactjs.org/">
+                  <strong>Node.js</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "65px" }}></span>
+                </p>
+              </li>
+              <li>
+                <a href="https://reactjs.org/">
+                  <strong>Tailwind</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "65px" }}></span>
+                </p>
+              </li>
+              <li>
+                <a href="https://reactjs.org/">
+                  <strong>MongoDB</strong>
+                </a>
+                <br></br>{" "}
+                <p>
+                  <span style={{ width: "65px" }}></span>
+                </p>
+              </li>
+              <li>
+                <a href="https://reactjs.org/">
+                  <strong>Wordpress</strong>
                 </a>
                 <br></br>{" "}
                 <p>

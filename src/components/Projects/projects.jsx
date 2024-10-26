@@ -66,6 +66,21 @@ export default function Projects() {
             </a>
           </div>
         </div>
+        <div className="projects__container__fourth">
+          <div className="projects__container__fourth__title">
+            <p>
+              <br></br> {t("Texas Parts Manufacturing Web Site Project")}
+            </p>
+            <div className="projects__container__first__tech">
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div className="projects__container__sec__button">
+            <a href="https://txpartsmfg.com/" target="__blank">
+              <button> {t("View Detail")}</button>
+            </a>
+          </div>
+        </div>
       </div>
       <div className="projects__more">
         <a href="https://github.com/sedamer" target="__blank">

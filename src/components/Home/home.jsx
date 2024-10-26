@@ -1,7 +1,7 @@
 import "./home.scss";
 
 import { Link as ScrollLink } from "react-scroll";
-import cv from "../../assets/Seda-MercanÖzgeçmiş.pdf";
+import cv from "../../assets/Seda-Mercan-Özgeçmiş.pdf";
 import email from "../../assets/icons8-gmail-logo.svg";
 import github from "../../assets/icons8-github (1).svg";
 import lavander from "../../assets/flower.png";

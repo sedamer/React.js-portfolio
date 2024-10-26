@@ -58,6 +58,13 @@ const AboutMe = () => {
               </p>
               <ul>
                 <li>
+                  <p>{t("Project Management Intern")}</p>
+                  <p>
+                    <i>SCA Social</i>
+                  </p>
+                  <p>09/2024 - 10/2024</p>
+                </li>
+                <li>
                   <p>{t("Front-end Developer Intern")}</p>
                   <p>
                     <i>Brew Interactive</i>
