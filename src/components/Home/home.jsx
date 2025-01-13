@@ -26,9 +26,7 @@ const Home = () => {
               {t("Hi, I'm Seda")}
               <img src={lavander} alt="lavander" style={{ width: "55px" }} />
             </div>
-            <div className="home__content__left__desc">
-              {t("Junior Front-End Developer")} <br />
-            </div>
+
             <div className="home__content__left__buttons">
               <div className="home__content__left__buttons__button">
                 <ScrollLink to="contact" smooth={true} duration={500}>

@@ -9,7 +9,7 @@ export default function Projects() {
     <div className="projects">
       <div className="projects__title"> {t("My Projects")}</div>
       <div className="projects__container">
-        <div className="projects__container__first">
+        {/* <div className="projects__container__first">
           <div className="projects__container__first__title">
             <p>
               {t("Nutrition and Workout")}
@@ -27,60 +27,7 @@ export default function Projects() {
               <button> {t("View Detail")}</button>
             </a>
           </div>
-        </div>
-        <div className="projects__container__sec">
-          <div className="projects__container__sec__title">
-            <p>
-              {t("Chess")}
-              <br></br> {t("Full Stack Web Site (Team Work)")}
-            </p>
-            <div className="projects__container__first__tech">
-              <p>Node.js, API,Bootstrap</p>
-            </div>
-          </div>
-          <div className="projects__container__sec__button">
-            <a
-              href="https://github.com/sedamer?tab=repositories"
-              target="__blank"
-            >
-              <button> {t("View Detail")}</button>
-            </a>
-          </div>
-        </div>
-        <div className="projects__container__third">
-          <div className="projects__container__third__title">
-            <p>
-              {t("Brick Breaker Game")}
-              <br></br> {t("Various Environment")}
-            </p>
-            <div className="projects__container__first__tech">
-              <p>OpenGl,WinBGIm,MinGW </p>
-            </div>
-          </div>
-          <div className="projects__container__third__button">
-            <a
-              href="https://github.com/sedamer?tab=repositories"
-              target="__blank"
-            >
-              <button> {t("View Detail")}</button>
-            </a>
-          </div>
-        </div>
-        <div className="projects__container__fourth">
-          <div className="projects__container__fourth__title">
-            <p>
-              <br></br> {t("Texas Parts Manufacturing Web Site Project")}
-            </p>
-            <div className="projects__container__first__tech">
-              <p>Wordpress</p>
-            </div>
-          </div>
-          <div className="projects__container__sec__button">
-            <a href="https://txpartsmfg.com/" target="__blank">
-              <button> {t("View Detail")}</button>
-            </a>
-          </div>
-        </div>
+        </div> */}
       </div>
       <div className="projects__more">
         <a href="https://github.com/sedamer" target="__blank">

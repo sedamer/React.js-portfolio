@@ -75,7 +75,7 @@ export default function Contact() {
               placeholder={t("Message")}
               name="message"
               required
-              rows={5}
+              rows={8}
             ></textarea>
             <div className="contact__form__container__text__send">
               <button type="submit">{t("Get in touch")}</button>
